@@ -8,11 +8,17 @@ from psaw import PushshiftAPI
 import time
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-import pickle
 import copy
 from tqdm import tqdm
+import argparse
+import os
 
 #api = PushshiftAPI(reddit)
+
+parser = argparse.ArgumentParser(description='Enter the input subreddits and keywords text files for data extraction.')
+parser.add_argument('-s', dest='subreddit_file', help='This is the input subreddit text file path.', required=True)
+parser.add_argument('-k', dest='keyword_file', help='This is the input keyword text file path.', required=True)
+args = parser.parse_args()
 
 
 class specialComment():
@@ -69,19 +75,38 @@ def recurseCommentTree(treeObject):
 
 
 def get_keywords_and_subreddits():
-	keywords = ['Heroin','Safe Use Site', 'SUS', 'Safehouse', 'SIS', 
-			'Safe Injection Site', 'Supervised Injection', 'Overdose on site', 
-			'Safe-injection site', 'Drug treatment center', 'Treatment', 'Opioid', 
-			'Opiates', 'Prescription Opioid Painkillers', 'POPs', 'Dealer', 'Smack', 
-			'Dope', 'Drug Dealer', 'Overdose', 'Narcan', 'Naloxone', 'OD', 'crackhead', 
-			'junkie', 'zombie', 'crack head']
+
+	#try:
+	with open(args.subreddit_file) as f:
+		subreddits = f.read().splitlines()
+	#except:
+	#	print('Error reading subreddit input file ' + args.subreddit_file + '.')
 
 
-	subreddits = ['Philadelphia', 'New Jersey', 'South Jersey', 'Sixers', 'Phillylist',
-					'Pennsylvania', 'Pennsylvania_Politics', 'UrbanHell'                     
-					'CamdenCounty', 'OurOverUsedVeins', 'Delco', 'Montco',
-					'BucksCountyPA', 'Chester County']
-					# 'Opiates', 'Opioids', 'Heroin',
+
+	#try:
+	with open(args.keyword_file) as f:
+		keywords = f.read().splitlines()
+
+	#except:
+	#	print('Error reading keyword input file ' + args.keyword_file + '.')
+
+
+
+	#keywords = ['Heroin','Safe Use Site', 'SUS', 'Safehouse', 'SIS', 
+	#		'Safe Injection Site', 'Supervised Injection', 'Overdose on site', 
+	#		'Safe-injection site', 'Drug treatment center', 'Treatment', 'Opioid', 
+	#		'Opiates', 'Prescription Opioid Painkillers', 'POPs', 'Dealer', 'Smack', 
+	#		'Dope', 'Drug Dealer', 'Overdose', 'Narcan', 'Naloxone', 'OD', 'crackhead', 
+	#		'junkie', 'zombie', 'crack head']
+
+
+	#subreddits = ['Philadelphia', 'New Jersey', 'South Jersey', 'Sixers', 'Phillylist',
+	#				'Pennsylvania', 'Pennsylvania_Politics', 'UrbanHell'                     
+	#				'CamdenCounty', 'OurOverUsedVeins', 'Delco', 'Montco',
+	#				'BucksCountyPA', 'Chester County']
+	#				# 'Opiates', 'Opioids', 'Heroin',
+
 	return keywords, subreddits
 
 def initialize_Reddit():
@@ -221,6 +246,205 @@ def buildSubmissionCommentTree(submissionID, api):
 
 
 
+# Here begins the standardization methods which take in a type of comment dictionary or object and 
+# reduces it to be the same format as all of the other comments, or a standardized dict.
+# This is because of the discrepencies of the different comment objects that are returned when
+# making various Reddit API calls
+
+
+
+
+
+# The input of this function is a commentList that is retreived directly from the submission
+def standardizeCommentList(commentList, standardized_dict):
+
+	new_dict2 = copy.deepcopy(standardized_dict)
+	for comment in commentList:
+
+		
+		new_dict2['type'] = 'comment'
+		try:
+			new_dict2['body'] = comment.body
+		except:
+			pass
+		try:
+			new_dict2['author'] = comment.author
+		except:
+			pass
+		try:
+			new_dict2['author_id'] = comment.author.id
+		except:
+			pass
+		try:
+			new_dict2['created_utc'] = comment.created_utc
+		except:
+			pass
+		try:
+			new_dict2['distinguished'] = comment.distinguished
+		except:
+			pass
+		try:
+			new_dict2['edited'] = comment.edited
+		except:
+			pass
+		try:
+			new_dict2['id'] = comment.id
+		except:
+			pass
+		try:
+			new_dict2['is_submitter'] = comment.is_submitter
+		except:
+			pass
+		try:
+			new_dict2['link_id'] = comment.link_id.split('_')[1]
+		except:
+			pass
+		try:
+			new_dict2['parent_id'] = comment.parent_id.split('_')[1]
+		except:
+			pass
+		try:
+			new_dict2['score'] = comment.score
+		except:
+			pass
+		try:
+			new_dict2['stickied'] = comment.stickied
+		except:
+			pass
+		try:
+			new_dict2['subreddit_id'] = comment.subreddit_id.split('_')[1]
+		except:
+			pass
+
+	return new_dict2
+
+
+
+# This function standardizes an individual comment dictionary retrevied from the comment specific API
+def standardizeIndividualComment(comment, standardized_dict):
+
+	new_dict3 = copy.deepcopy(standardized_dict)
+	new_dict3['type'] = 'comment'
+	new_dict3['relevance'] = 1
+	try:
+		new_dict3['body'] = comment['body']
+	except:
+		pass
+	try:
+		new_dict3['author'] = comment['author']
+	except:
+		pass
+	try:
+		new_dict3['author_id'] = comment['author_id']
+	except:
+		pass
+	try:
+		new_dict3['created_utc'] = comment['created_utc']
+	except:
+		pass
+	try:
+		new_dict3['distinguished'] = comment['distinguished']
+	except:
+		pass
+	try:
+		new_dict3['edited'] = comment['edited']
+	except:
+		pass
+	try:
+		new_dict3['id'] = comment['id']
+	except:
+		pass
+	try:
+		new_dict3['is_submitter'] = comment['is_submitter']
+	except:
+		pass
+	try:
+		new_dict3['link_id'] = comment['link_id'].split('_')[1]
+	except:
+		pass
+	try:
+		new_dict3['parent_id'] = comment['parent_id'].split('_')[1]
+	except:
+		pass
+	try:
+		new_dict3['score'] = comment['score']
+	except:
+		pass
+	try:
+		new_dict3['stickied'] = comment['stickied']
+	except:
+		pass
+	try:
+		new_dict3['subreddit_id'] = comment['subreddit_id'].split('_')[1]
+	except:
+		pass
+
+	return new_dict3
+
+
+
+# The input comment object for this function is from traversing the comment subtree and is controlled
+# by the while loop in the main function
+def standardizeCurrentComment(currentComment, standardized_dict):
+
+	new_dict4 = copy.deepcopy(standardized_dict)
+	new_dict4['type'] = 'comment'
+	new_dict4['relevance'] = 1
+	try:
+		new_dict4['body'] = currentComment.body
+	except:
+		pass
+	try:
+		new_dict4['author'] = currentComment.author.author_fullname.split('_')[1]
+	except:
+		pass
+	try:
+		new_dict4['author_id'] = currentComment.author.id
+	except:
+		pass
+	try:
+		new_dict4['created_utc'] = currentComment.created_utc
+	except:
+		pass
+	try:
+		new_dict4['distinguished'] = currentComment.distinguished
+	except:
+		pass
+	try:
+		new_dict4['edited'] = currentComment.edited
+	except:
+		pass
+	try:
+		new_dict4['id'] = currentComment.id
+	except:
+		pass
+	try:
+		new_dict4['is_submitter'] = currentComment.is_submitter
+	except:
+		pass
+	try:
+		new_dict4['link_id'] = currentComment.link_id.split('_')[1]
+	except:
+		pass
+	try:
+		new_dict4['parent_id'] = currentComment.parent_id.split('_')[1]
+	except:
+		pass
+	try:
+		new_dict4['score'] = currentComment.score
+	except:
+		pass
+	try:
+		new_dict4['stickied'] = currentComment.stickied
+	except:
+		pass
+	try:
+		new_dict4['subreddit_id'] = currentComment.subreddit_id.split('_')[1]
+	except:
+		pass
+
+	return new_dict4
+
 if __name__ == '__main__':
 	#print(search_comments('opiates', 'philadelphia'))
 
@@ -353,140 +577,38 @@ if __name__ == '__main__':
 				list_of_data.append(new_dict)
 				subObj = r.submission(sub['id'])
 				subObj.comments.replace_more(limit=0)
-				for comment in subObj.comments.list():
-					# Need to recursively collect all comments from comment tree
-					new_dict2 = copy.deepcopy(standardized_dict)
-					new_dict2['type'] = 'comment'
-					try:
-						new_dict2['body'] = comment.body
-					except:
-						pass
-					try:
-						new_dict2['author'] = comment.author
-					except:
-						pass
-					try:
-						new_dict2['author_id'] = comment.author.id
-					except:
-						pass
-					try:
-						new_dict2['created_utc'] = comment.created_utc
-					except:
-						pass
-					try:
-						new_dict2['distinguished'] = comment.distinguished
-					except:
-						pass
-					try:
-						new_dict2['edited'] = comment.edited
-					except:
-						pass
-					try:
-						new_dict2['id'] = comment.id
-					except:
-						pass
-					try:
-						new_dict2['is_submitter'] = comment.is_submitter
-					except:
-						pass
-					try:
-						new_dict2['link_id'] = comment.link_id.split('_')[1]
-					except:
-						pass
-					try:
-						new_dict2['parent_id'] = comment.parent_id.split('_')[1]
-					except:
-						pass
-					try:
-						new_dict2['score'] = comment.score
-					except:
-						pass
-					try:
-						new_dict2['stickied'] = comment.stickied
-					except:
-						pass
-					try:
-						new_dict2['subreddit_id'] = comment.subreddit_id.split('_')[1]
-					except:
-						pass
+				new_dict2 = standardizeCommentList(subObj.comments.list(), standardized_dict)
+				
 
+				# Now do the parentID logic/lookup 
+				try:
+					cache[new_dict2['id']] = [new_dict2['author_id'], new_dict2['author']]
+				except:
+					pass
 
-					# Now do the parentID logic/lookup 
-					try:
-						cache[new_dict2['id']] = [new_dict2['author_id'], new_dict2['author']]
-					except:
-						pass
+				if new_dict2['parent_id'] in cache.keys():
+					new_dict2['parent_author_name'] = cache[new_dict2['parent_id']][1]
+					new_dict2['parent_author_id'] = cache[new_dict2['parent_id']][0]
+		
 
-					if new_dict2['parent_id'] in cache.keys():
-						new_dict2['parent_author_name'] = cache[new_dict2['parent_id']][1]
-						new_dict2['parent_author_id'] = cache[new_dict2['parent_id']][0]
-
+				if new_dict2['created_utc'] != '':
 					new_dict2['date'] = dt.datetime.fromtimestamp(new_dict2['created_utc']).strftime('%d-%m-%Y')
 					new_dict2['time'] = dt.datetime.fromtimestamp(new_dict2['created_utc']).strftime('%H:%M:%S')
 					new_dict2['relevance'] = 1
 					list_of_data.append(new_dict2)
+
+				else:
+					pass
+
+
+
 
 			comments = throttledCommentsSearch(api, start_epoch, subreddit, keyword)
 
 
 			for comment in comments:
 				if comment['link_id'] not in sub_cache and comment['id'] not in comment_cache:
-					new_dict3 = copy.deepcopy(standardized_dict)
-					new_dict3['type'] = 'comment'
-					new_dict3['relevance'] = 1
-					try:
-						new_dict3['body'] = comment['body']
-					except:
-						pass
-					try:
-						new_dict3['author'] = comment['author']
-					except:
-						pass
-					try:
-						new_dict3['author_id'] = comment['author_id']
-					except:
-						pass
-					try:
-						new_dict3['created_utc'] = comment['created_utc']
-					except:
-						pass
-					try:
-						new_dict3['distinguished'] = comment['distinguished']
-					except:
-						pass
-					try:
-						new_dict3['edited'] = comment['edited']
-					except:
-						pass
-					try:
-						new_dict3['id'] = comment['id']
-					except:
-						pass
-					try:
-						new_dict3['is_submitter'] = comment['is_submitter']
-					except:
-						pass
-					try:
-						new_dict3['link_id'] = comment['link_id'].split('_')[1]
-					except:
-						pass
-					try:
-						new_dict3['parent_id'] = comment['parent_id'].split('_')[1]
-					except:
-						pass
-					try:
-						new_dict3['score'] = comment['score']
-					except:
-						pass
-					try:
-						new_dict3['stickied'] = comment['stickied']
-					except:
-						pass
-					try:
-						new_dict3['subreddit_id'] = comment['subreddit_id'].split('_')[1]
-					except:
-						pass
-
+					new_dict3 = standardizeIndividualComment(comment, standardized_dict)
 
 					currentComment = r.comment(comment['id'])
 
@@ -496,63 +618,9 @@ if __name__ == '__main__':
 
 							currentComment = r.comment(currentComment.parent_id)
 						
-						
 							if currentComment.link_id not in sub_cache and currentComment.id not in comment_cache:
-								new_dict4 = copy.deepcopy(standardized_dict)
-								new_dict4['type'] = 'comment'
-								new_dict4['relevance'] = 1
-								try:
-									new_dict4['body'] = currentComment.body
-								except:
-									pass
-								try:
-									new_dict4['author'] = currentComment.author.author_fullname.split('_')[1]
-								except:
-									pass
-								try:
-									new_dict4['author_id'] = currentComment.author.id
-								except:
-									pass
-								try:
-									new_dict4['created_utc'] = currentComment.created_utc
-								except:
-									pass
-								try:
-									new_dict4['distinguished'] = currentComment.distinguished
-								except:
-									pass
-								try:
-									new_dict4['edited'] = currentComment.edited
-								except:
-									pass
-								try:
-									new_dict4['id'] = currentComment.id
-								except:
-									pass
-								try:
-									new_dict4['is_submitter'] = currentComment.is_submitter
-								except:
-									pass
-								try:
-									new_dict4['link_id'] = currentComment.link_id.split('_')[1]
-								except:
-									pass
-								try:
-									new_dict4['parent_id'] = currentComment.parent_id.split('_')[1]
-								except:
-									pass
-								try:
-									new_dict4['score'] = currentComment.score
-								except:
-									pass
-								try:
-									new_dict4['stickied'] = currentComment.stickied
-								except:
-									pass
-								try:
-									new_dict4['subreddit_id'] = currentComment.subreddit_id.split('_')[1]
-								except:
-									pass
+								
+								new_dict4 = standardizeCurrentComment(currentComment, standardized_dict)
 
 								if new_dict4['parent_id'] == new_dict4['link_id']:
 									sub = r.submission(new_dict4['link_id'])
@@ -592,8 +660,6 @@ if __name__ == '__main__':
 
 					# Add the submission of the Comment and also add it to the sub_cache
 
-
-					
 					# Do logic to get ParentAuthorID and ParentAuthor
 					# It's a submission!
 					if new_dict3['parent_id'] == new_dict3['link_id']:
@@ -629,11 +695,6 @@ if __name__ == '__main__':
 					list_of_data.append(new_dict3)
 
 
-
-
-
-
-
 					# Conduct comment search and be strategic about which comments are being selected
 					# Search all comments for keyword on subreddit
 					# Take list of comments
@@ -648,7 +709,15 @@ if __name__ == '__main__':
 
 			filename = subreddit + '_' + keyword + '.csv'
 
-			data.to_csv('/Users/seanparsons/Desktop/Reddit_Scraping/newdata/' + filename)
+			current_dir = os.path.dirname(__file__) 
+			rel_path = 'data/'
+			abs_path = os.path.join(current_dir, rel_path)
+
+			if data.empty:
+				# don't put it in a CSV file then!
+				pass
+			else:
+				data.to_csv(abs_path + filename)
 
 			total += len(data.index)
 			subtotal += len(data.index)

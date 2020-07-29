@@ -1,0 +1,736 @@
+,id,author_id,parent_id,parent_author_id,parent_author_name,type,author,body,created_utc,score,stickied,subreddit_id,title,full_link,media_only,num_comments,over_18,pinned,retrieved_on,subreddit,updated_utc,date,time,url,distinguished,edited,is_submitter,link_id,relevance
+0,g5m3ef,n6ai5,,,,submission,redeyeblink,"&gt;MEAL SITE UPDATE: Grab-and-go meal distribution at our 49 District school sites will be shifting to one day per week.  
+&gt;  
+&gt;Every Thursday, beginning April 23, from 9 a.m. to noon, you will be able to pick up a box of 5 breakfast meals, five lunch meals and a ½ gallon of milk for each student in your family.  
+&gt;  
+&gt;Each box weighs six pounds so we encourage you to bring a wheeled cart or some other way to easily carry the boxes if you are picking up meals for multiple students in your household.  
+&gt;  
+&gt;The one-day-per-week schedule is a proactive measure we are taking to further support the City’s shelter-in-place guidance, minimize social interactions and help flatten the coronavirus curve. Social distancing, the use of masks and gloves, and other safety efforts will continue to be practiced to ensure everyone’s safety as meals are distributed.  
+&gt;  
+&gt;Thank you for supporting this important safety effort. For up-to-date information, visit www.philasd.org. Please take care and stay safe.  
+&gt;",1587498128.0,5,False,t5_2qh24,School District meal pick up switching to once a week schedule,https://www.reddit.com/r/philadelphia/comments/g5m3ef/school_district_meal_pick_up_switching_to_once_a/,False,35,False,False,1587500877,philadelphia,,21-04-2020,12:42:08,https://www.reddit.com/r/philadelphia/comments/g5m3ef/school_district_meal_pick_up_switching_to_once_a/,,,,,1
+1,fo5dfdu,1ehmy8pa,fo5d3pg,,,comment,briwu36,The fact that they are going out to get these meals proves that they need to. It is always the one that is barely out of poverty that has the most desire to make themselves superior.,1587523004.0,4,False,2qh24,,,,0,,,,,,21-04-2020,19:36:44,,,False,False,g5m3ef,1
+2,biixnw,7ipuf,,,,submission,VVont,"Hi! my family and I are moving out to Philly this June and would very appreciate some input on neighborhoods and renting
+
+We’re looking at homes anywhere from $2,000-$3,100/mo
+
+We’ve looked at homes in Fishtown, Chestnut hills, and Queen Village. Are these areas generally safe? Are there some streets we should be aware of near these neighborhoods?
+
+Also, aside from Zillow and Padmapper... what site do you guys use?",1556503231.0,0,False,t5_2qh24,Moving to Philly this June and need tips on renting a place to rent!,https://www.reddit.com/r/philadelphia/comments/biixnw/moving_to_philly_this_june_and_need_tips_on/,False,16,False,False,1556503232,philadelphia,1556589607.0,28-04-2019,19:00:31,https://www.reddit.com/r/philadelphia/comments/biixnw/moving_to_philly_this_june_and_need_tips_on/,,,,,1
+3,em16wvz,6upre,em15y60,,,comment,tofucaketl,"hokay so, if yall are going the public school route, definitely consider the quality of the school district more than most other things, as philly schools generally are really not good, mostly because Harrisburg/the PPA are a bunch of dicks and also probably because of some minor incompetence and/corruption
+
+Philly is a pretty welcoming city, and depending on your skin color the fishtowner longtimers might not even care about your religion (like, if you're all whitish eastern Europeans from Ufa or something)
+
+A decent 3 bedroom house can be had in a relatively nice neighborhood for <$2000 because Philly is dirt cheap so really you just need to pick somewhere at random (not north philly) and you'll probably be okay",1556508475.0,1,False,2qh24,,,,0,,,,,,28-04-2019,20:27:55,,,False,False,biixnw,1
+4,ge0mb,3jllw,,,,submission,Simon_the_Cannibal,"Hey All,
+
+I just wanted to get your input on a number of things, and hopefully improve the subreddit in the process. As follows:
+
+1. **The stickies up top**: We've had a proliferation of stickies; there are ten as of this writing. This presents problems, as I'm sure they've started to wrap around and look terrible on some of your screens. Should we:
+
+    * Double the height of the logo (and possibly get a new one?) so that when stickies wrap around, it doesn't look extremely terrible?
+
+    * Only list the next three events on the stickies and the rest either on the sidebar or unlisted? This would mean more work for me :( - but I'd do it.
+
+    * Start culling stickies that are not explicitly meetups (e.g. Green Up, Pillow War, LAN)
+
+    * Leave it, as it looks fine on my screen.
+
+    **EDIT: 3/30 5pm** I've decided to restrict the stickies at the top to *finalized* events *planned and attended by redditors*. If it's an event that a group of redditors will be attending (or a meetup in planning), it may be listed on the sidebar.
+
+2. As usual, feel free to edit the [FAQ](http://www.reddit.com/r/Philadelphia/help/faqs/Philadelphia). The edit link is at the bottom of the FAQ - and [this](http://code.reddit.com/wiki/help/faqs/Philadelphia?action=edit) should take you directly to the edit page. The threads about ""where's a good place to..."" or ""can you recommend a..."" are good starting points. I don't know if it's still a little bitch, but F5 (refresh) usually solves most problems with the site.
+
+3. I'm thinking of starting a 'shaming' regime. All in good fun, of course. Users who blatantly disregard rules or common etiquette (or asking another god damn question about Pat's and Geno's) might find themselves with a ""didn't read the sidebar"" note or similar (perhaps a Yankees/Mets logo for especially egregious offenses) appended to their names. *If you do or don't like this idea, let me know.* I think I would only take action if I received a number of complaints about a user.
+
+4. **Moderator Questions:**
+
+    * Is **mchadw** still around? Does he still lurk? Why is he a moderator if he doesn't contribute to the subreddit?
+
+    * Similarly, does **doug3465** even subscribe to r/philly? I know he's an active redditor (some would even go as far to say a karma whore), but I've never seen him active here. He's done three things as far as moderation goes: he removed a spammy link, he made himself Will Smith, and he added a link to r/phillyroommates on the sidebar without consulting anyone.
+
+    * I think we need another mod, if only so that when I fuck up ~~I can blame it on someone else~~ someone can fix it quickly. Preferably someone who knows a little bit about css and spends most of their time hitting F5 in r/philly.
+
+5. Feel free to use this thread to request icons and other such changes, since the [old thread](http://redd.it/f62j1) has been archived. I will edit this post later to include an image with all icons available.
+
+6. **The Spam Filter has been insane recently**, and you'd never notice. Apparently, it still shows a submitter's post in the 'new' and 'hot' threads now, even though it was caught. You actually have to log out to see whether or not your post was submitted (another good check: look at the twitter feed, though that will take up to a half hour to update). A recent post was double caught (caught again after I approved), and I had *no fucking clue that could happen*. Now I've been checking the filter daily, but that's no guarantee that your post is safe.
+
+Alright, that about wraps it up. Is there anything I've been fucking up that I need to get better at? Feel free to shoot this an upvote so other Philadelphians see it - it's not like self posts get karma.",1301415558.0,20,,t5_2qh24,"Monthly Housekeeping, Public Shaming?",https://www.reddit.com/r/philadelphia/comments/ge0mb/monthly_housekeeping_public_shaming/,,36,False,,,philadelphia,,29-03-2011,09:19:18,http://www.reddit.com/r/philadelphia/comments/ge0mb/monthly_housekeeping_public_shaming/,moderator,1,,,1
+5,c1mya3t,3jllw,c1my93o,,,comment,Simon_the_Cannibal,No worries - just keep Benny safe over with those ruffians in r/RTH.,1301447197.0,1,False,2qh24,,,,0,,,,,,29-03-2011,18:06:37,,,False,True,ge0mb,1
+6,fy2emva,,hr7bbh,4lqfz7sa,,comment,TreeMac12,"What about the ones who don’t go to the clinic? How does the Netherlands treat their armed drug dealers?Because the Netherlands had 44 total gun homicides in all of last year. I think Philly had that many on Tuesday. Until you address the drug dealer issue, nobody is going to want a Safe Injection Site on their street.
+
+
+https://nltimes.nl/2019/06/26/527-shootings-registered-netherlands-last-year-report
+
+If the program is not national, will Philly taxpayers foot the bill for out-of-town drug tourists to come and use?
+
+It’s not that simple, really.",1594754174.0,5,False,2qh24,,,,0,,,,,,14-07-2020,12:16:14,,,1594754651.0,False,hr7bbh,1
+7,frb47a7,,fr0oj9f,4zuaf,MaximumDeathShock,comment,cashonlyplz,"Sorry, I don't use reddit as much, these days! It's like Skid Row, if I'm being honest. Pretty sure it is worse than the Somerset stop on the El. It's as of if, because Kenney met so much resistance with the safe injection site, that they bussed all of the junkies out of 69th st station, suburban station, etc., and dropped them all off at the airport.  
+
+
+I feel bad for the janitors, there. And you know those folks aren't getting tested for the 'rona. 🤢",1590032389.0,1,False,2qh24,,,,0,,,,,,20-05-2020,20:39:49,,,,False,glm5dp,1
+8,fmzo2to,,fmzngi0,16eh2l,daregulater,comment,puffinonblunts,"Is he? Lots of heroin addicts use multiple times per day. Are they all going to get their drugs then go out of their way to go to the safe injection site to shoot up, especially multiple times a day? Will drug dealers make it easier by moving their operations closer to the SIS? Would you want that happening on the block you live on? Maybe it’s cause my house was once broken into and stolen from by a junkie, but I wouldn’t want that anywhere close to my house. 
+
+And not that it validates any of my points, but I’ve lost like 10 friends over the past couple years to this shit. I want there to be a solution, but it’s not that simple.",1586525757.0,1,False,2qh24,,,,0,,,,,,10-04-2020,06:35:57,,,,False,fyffoc,1
+9,fkejqvs,,fhxbh7,6l4z3,,comment,art-man_2018,"Though the situation seems that my job at a movie theater [is still ongoing day by day basis](https://www.deseret.com/u-s-world/2020/3/12/21176882/coronavirus-covid-19-movie-theaters-cancel-close), I myself know it won't stay open as this event accelerates.
+
+I have no idea what I will do (much less the theater company - I will talk to my manager tonight); will I get paid time off? Don't think so. Will I be able to get unemployment compensation? Anyone out there know?
+
+I use SNAP to get food. My SNAP was decreased though since I was earning more income during the holiday season, but that wasn't indicative of what I really earned, it definitely fluctuates - I will have to go to the Department of Human Services to get more on that I guess. 
+
+I am  60 years old, smoker and do have a morning cough. I am at high risk. I do have Medicaid and will just have to be vigilant on all those germ free practices.
+
+I was a graphic designer (though long in the tooth in current UX/Mobile/Video app skills) which sometimes (rarely) helps out, I have one work at home job pending. I also have a [Redbubble site](https://art-man.redbubble.com) that sometimes trickles income.
+
+So... I will take this all day by day. And plan accordingly. Will keep promoting my site and get some skill assets upgraded, get more online presence of these skills and see whatever comes of this. I am worried, but not panicking yet.
+
+Stay clean Philly. When the testing becomes - get tested. If you got it. Stay home. And stay safe.",1584114616.0,1,False,2qh24,,,,0,,,,,,13-03-2020,08:50:16,,,,False,fhxbh7,1
+10,fj8rp6r,,fj8niop,4t8oj,SlamBrandis,comment,Angsty_Potatos,I don't get why people are nervous about a safe injection site when broad and Snyder has been an open air drug Mart with folks selling and using right there or right in the subway escalator. People are fine to walk thru and past that daily for years but the city wanting to create a safe and regulated area for people who are going to use anyway to use is somehow crossing a line.,1583120483.0,1,False,2qh24,,,,0,,,,,,01-03-2020,19:41:23,,,,False,fc4d8a,1
+11,fj0k4z8,,fauare,2brz0,,comment,grntled_tlk,"So. Philly should be flattered that they're believed to have more of a chance than Kensington. If people don't want to allow safe injection site they shouldn't get upset when they can't get Medicaid for rehab, cops should stop carrying noloxone, and people can use drugs freely on the street. Mexicans will be taking all their jobs soon anyway ...so Yay Catholics! ( And other PTSD sufferers",1582901824.0,1,False,2qh24,,,,0,,,,,,28-02-2020,06:57:04,,,,False,fauare,1
+12,fj0c4g2,,fauare,2brz0,,comment,LookMomNoHands1,"https://www.inquirer.com/opinion/commentary/safe-injection-site-south-philadelphia-safehouse-20200226.html
+
+The Inquirer and city progressives are still in the bag for this monumentally stupid idea, that Darrell Clarke rightly noticed that allowing drug users to continue to use hard drugs fundamentally does not help people get off of drugs. The op-ed writer, Jennifer Kates is Helen Gym's Chief of Staff. Write to Helen Gym and call her office, tell her that there will never be a Safe Injection Site in Philadelphia!",1582896149.0,1,False,2qh24,,,,0,,,,,,28-02-2020,05:22:29,,,,False,fauare,1
+13,fiyahn4,,fiwwfuz,d0zhl,jokethepanda,comment,MRC1986,"It's a branding tool.  It's actually ""supervised injection site"", but since ""safe"" also begins with ""S"" and makes it sound much more palatable, the naming has sometimes morphed into ""safe injection site"".
+
+I refuse to use that.",1582835693.0,1,False,2qh24,,,,0,,,,,,27-02-2020,12:34:53,,,,False,fa6g7l,1
+14,fiw93zg,,fiw7vdk,,,comment,No-Known-Weaknesses,"Because places that don’t have addicts nodding out will start to have them. You’re inviting additional users to a concentrated area. You’re increasing the probability of illgeal behavior by allowing illegal behavior. 10 junkies now in an area, you think that number is going to stay the same or go down with adding a safe injection site nearby? All addicts dont have a heart of gold. Its naive to think they will follow any other laws in the area when the SIS are not open and they are waiting around to use it",1582778353.0,4,False,2qh24,,,,0,,,,,,26-02-2020,20:39:13,,,,False,fa6g7l,1
+15,fiuc713,,fitsiqh,,,comment,shuynt,"&gt;There is no wraparound social services. This is not some kind of place where an addict can walk in and get actual help.
+
+This is a blatant falsehood that is easily dispelled by simply looking at [their website](https://www.safehousephilly.org/frequently-asked-questions#faqgeneral-whatis):
+
+&gt;The organization seeks to open the first safe injection site in the U.S. providing a range of overdose prevention services, including safe consumption and observation rooms staffed by a medical staff prepared to administer overdose reversal if needed. **Additional services would include on-site initiation of Medically Assisted Treatment (MAT), recovery counseling, education about substance use treatment, basic medical services, and referrals to support services such as housing, public benefits, and legal services**.
+
+But this is what you get when the mods allow conservatives to spread propaganda without repercussion while anyone who dares to pushback against their lies is held to a standard that mysteriously doesn't apply to the naysayers. I once had a comment removed for saying, ""it's foolish to believe"" because that's a ""personal attack,"" but apparently if you're against SIS you can call everyone else in the thread ""idiots"" or whatever other *ad hominem* you want and that's perfectly acceptable!
+
+Edit: Even more from their website proving this is nonsense:
+
+&gt;Participants will be presented with rehabilitation options at multiple points during their Safehouse visit, beginning with when they arrive and go through a registration process.  A physical and behavioral health assessment will be conducted, and a range of overdose prevention services offered.  
+&gt;  
+&gt;From the consumption area, participants will be directed to the medically supervised observation room and offered on-site initiation of Medication Assisted Treatment (MAT), wound care, and referrals to primary care, social services, and housing opportunities. Upon arrival, participants may choose to go directly to the observation room to access MAT and other services.  
+&gt;  
+&gt;Certified peer specialists, recovery specialists, social workers, and case managers will encourage treatment readiness and facilitate access to medical and social services. As participants leave, additional data will be collected, treatment, medical and social services will be offered again, and naloxone will be distributed.",1582738713.0,1,False,2qh24,,,,0,,,,,,26-02-2020,09:38:33,,,,False,f9i5yl,1
+16,fiu1ors,,f9lp9e,,,comment,AWierzOne,"I have mixed feelings about safe injection sites.  As an idea, I support it.  Give people a place to connect to resources to help them hopefully quit, or at least use their drugs safely to lower their chance of death.  Decriminalize possession so you don't fill prisons with drug users, but instead push them towards rehabilitation services to get them clean. 
+
+My issue is that this effort doesn't seem connected to a wider approach to addressing drug use.  It feels like, and I may be ignorant of its connectivity to a more comprehensive effort here, this is just putting a band aid on an open wound.  Is this site aligned with recovery services that are capable of helping the people who go through here? Is it aligned with our criminal justice system and public health system, so that we can help people get better and prevent criminal activity?  I don't really know the answers to these questions, but the fight we're seeing at the federal level makes me feel like we aren't ready for this type of program yet. 
+
+I just have a hard time cutting through the hysteria of the direct neighbors (Of which, I am one), the literature surrounding this, and the particular situation we are in here in Philadelphia.  I don't think it will lead to an increase in crime in the area, but I'm also not sure how much good it will do.",1582733635.0,2,False,2qh24,,,,0,,,,,,26-02-2020,08:13:55,,,,False,f9lp9e,1
+17,fitsiqh,,fiteov5,a8t2c,hungryhummushead,comment,LookMomNoHands1,"Safehouse's idea for a safe injection site is for nothing but using currently. There is no mandatory rehab for these people who enter. There is no wraparound social services. This is not some kind of place where an addict can walk in and get actual help. They're going to have a ""nurse"" watch them shoot up heroin potentially laced with fentanyl and hope they don't die. The users can go in, use, and walk right back outside. This place is a walking tort liability.",1582728418.0,1,False,2qh24,,,,0,,,,,,26-02-2020,06:46:58,,,,False,f9i5yl,1
+18,fitou0w,,f9lp9e,,,comment,sciencefaire,"Idk if I'm being dense or what, but among heroin users, are they in favor of this? Like does a safe injection site close because the usage is non existent if people don't come? Or is this a case of if you build it they will come scenario? 
+
+Do heroin users tell their friends and they go to the SIS and get their drugs tested and then shoot up in a safe clean space and they're happy this is available to them? How long do they stay there? If they're using and then being released to nod out in the streets surrounding it or the bsl, how is this any better? (Besides the obvious clean needles, drug testing (I'm assuming they're going to do this there for like fent etc) and overdose prevention). 
+
+I have so many logistical questions. Is heroin the only thing you can use there?",1582725935.0,1,False,2qh24,,,,0,,,,,,26-02-2020,06:05:35,,,,False,f9lp9e,1
+19,fiteov5,,f9i5yl,wxx2j,,comment,hungryhummushead,"Wow, incredible negativity here. Why have other countries done this and still do this? Has anyone considered that a safe injection site is a point of contact to addicts for treatment and education and to help decrease the spread of disease from using dirty needless? How do you expect someone to come clean if they have no help whatsoever? The classic idea that a safe injection site will enable them to use is easy, but the whole point is to make contact with them. Do you really think an addict wants to continue to use? Addiction controls their life. They need help and currently there's nowhere for that. A singular site very well could cause other issues as people have pointed out such as increase in presence of users in the area of the site, etc. but I'd argue there needs to be multiple sites across the city. This is an epidemic here, does no one think something needs to be done? Anyone who disagrees I'd love to hear ideas. Judging by the attitude of this thread, I'm bracing myself for the downvotes.",1582717388.0,1,False,2qh24,,,,0,,,,,,26-02-2020,03:43:08,,,,False,f9i5yl,1
+20,fi3jf2q,,f6ad4k,,,comment,icallitwormlog2,"&gt;“I think you’re going to have drug dealers who try to prey upon people who use opioids, and I think you may have people who may try to rob individuals,” said Abernathy, adding that those trends had been observed in other cities when supervised injection sites opened. “We’re there to make sure that the predators that are likely to try to prey upon people suffering with addiction are kept at bay.”
+
+Truly unbelievable that he admits unsavory activity does increase near the sites (something they have always denied up until now) but specifically doesn't include residents when talking about his ""safety plan"".
+
+I'm honestly a safe injection site moderate--I think it's worth trying one in Philly if done in a competent way that practices harm reduction *for the entire community affected by this problem*. But the city has given me no evidence at all to trust them.",1582120640.0,1,False,2qh24,,,,0,,,,,,19-02-2020,05:57:20,,,,False,f6ad4k,1
+21,fgss0ts,,fgsk56p,4758x3yf,morrowindscrib,comment,Flyers456,"So I live outside of Philadelphia. I can legally bring my gun into the city. They can not ban that as I am pretty sure the state would fight it. So how again does this help? Look at NJ laws, do they still have murders in Camden and Trenton by handguns? Yes, they do and NJ has some of the most strict gun laws. This is a national issue and trying to do stuff in the city is taking away from things we can actually change and use to improve this city. Like the H epidemic in the city. I am sure all that sweet H money is helping buy guns and spread violence. I am sure you think we should have a safe injections site to bring more users and more dealers to this city.",1581091428.0,1,False,2qh24,,,,0,,,,,,07-02-2020,08:03:48,,,,False,f09jo5,1
+22,fgspqj7,,f09jo5,rs82l3b,,comment,Flyers456,"A lot of you might see this as insensitive but a big cause of a lot of this is the rampant drug use in the city. Why are we a sanctuary for H? Stop talking about safe injections site. Arrest users on the street and convict them of possession. I never hear of any H busts, maybe the cops can do a better job of arresting the dealers as well. Also make pot completely legal, no one commits crimes on weed. FUCK H, out city is on the verge of really bouncing back and we are most known for being the H capital like WTF Philly.",1581090012.0,1,False,2qh24,,,,0,,,,,,07-02-2020,07:40:12,,,,False,f09jo5,1
+23,fdei0b7,,fde3bvy,4isdnzqh,RainbowBunnyPuppy,comment,TreeMac12,"&gt;After the clean out the quality of life for the adjacent neighborhoods greatly improved.
+
+Where do you live?  Because I live in Kensington and the quality of life has not improved.  It has gotten worse, and the DA says the police will no longer enforce laws about drug use, prostitution, public intoxication, shoplifting, vagrancy, littering, loitering, breaking and entering, trespassing, larceny and receiving stolen property.
+
+The city and the Inquirer are pushing a Safe Injection Site within a few blocks of my house and no matter how they spin it we know it will not improve the area.  Listen to the people of Calgary when asked how it affects them:
+
+[https://www.reddit.com/r/Calgary/comments/eb2out/whats\_it\_like\_living\_near\_the\_supervised/](https://www.reddit.com/r/Calgary/comments/eb2out/whats_it_like_living_near_the_supervised/)
+
+The only reason the Convention Center is funding this is to get the homeless away from the eyes and wallets of tourists and the Center City wine and cheese crowd. The homeless are safer in Center City than they are in Kensington or Southwest Philly because there is less gunfire in Center City.  But I'm sure the Convention Center's ""solution"" will be to cluster the homeless services away from themselves.
+
+The fatal flaw in this model is that it does not address is what do you do with people who refuse treatment because they are ""not ready"" and what to do about their drug dealers with guns:
+
+[https://www.youtube.com/watch?v=pPJLROk5AbU&amp;feature=youtu.be](https://www.youtube.com/watch?v=pPJLROk5AbU&amp;feature=youtu.be)",1578339446.0,5,False,2qh24,,,,0,,,,,,06-01-2020,11:37:26,,,1578341580.0,False,ekw7qd,1
+24,f7koc8w,,f7kn4rs,37dq2,seinman,comment,TheStalk12,"Nice, thanks for the info! Do you know how early the parking is usually available? I tried checking the venue's website but didn't find any info on that - I'm planning to leave early to play it safe since it's a 7-8h drive, so if I can park an hour or two before the show and go grab dinner nearby that'd be great. It might also solve my other problem - if I can park on-site, I could drive back some of the way and stay in a cheaper place than downtown Philly. I checked the Marriott as suggested by another reply, and while rooms for tonight were 200ish dollars, which is already pushing my budget, a room for the night I'll be in town was almost 450$, which is WAY above my budget for this excursion!
+
+I might also use your tip about hanging out near the venue - I haven't done that at a show since my late teen years, but as you say, if I'm going to drive that far it might be worth my while to get the most out of my trip!",1573820398.0,1,False,2qh24,,,,0,,,,,,15-11-2019,04:19:58,,,,True,dwpmke,1
+25,f7iug6g,,f7iqx1v,,GreatestPandas,comment,this_shit,"Testing again 
+
+-----------------------------------------------
+
+&gt; Providing clean needles and not prosecuting heroin abuse as a crime is not helping either
+
+It's almost like you just [aren't very informed](https://whyy.org/articles/syringe-exchange-saved-billions-in-hiv-related-costs-in-philadelphia-study-finds/)
+
+&gt;Monica Ruiz, associate professor at the Milken Institute School of Public Health at Washington University and lead author on the study, said even after accounting for the estimated programming costs, the return on investment was $182.5 million a year in Philadelphia.
+
+Maybe you just tricked yourself into thinking your preexisting biases were rational? 
+
+&gt;So what are your ideas?
+
+Four things could drastically reduce the *number* of heroin addicts by using evidence-based methods, although they require city, state, and federal collaboration:
+
+* Deregulate suboxone so addicts can actually get prescriptions (currently the DEA limits the number of doctors who can prescribe it, and each doctor can only manage 25-100 prescriptions at a time, as a result addicts seeking recovery end up in ineffective 12-step programs or worse)
+
+* Redesign drug courts to reduce the number of 12-step sentences, provide on-site medicaid enrollment support (so eligible defendants can get int residential rehabs), and allow residential sentences at state-run detox/rehab facilities that use evidence-based addiction treatment methods, as well as reintegration halfway houses that won't kick people out for pissing positive (i.e., relapse tolerant), but built around access to additional treatment (filling missing suboxone/methadone prescriptions, emergency relapse counselling, etc.)
+
+* Require rehab facilities that accept medicaid to provide 1- and 5-year relapse statistics (demonstrating effectiveness) and kick ineffective rehabs off medicaid (eliminates the huge number of sham rehabs that sponge up medicaid dollars while dumping addicts back on the street)
+
+* Mandate that all medicare/medicaid recipient hospitals across the country (basically all hospitals) provide methadone prescriptions (spreads the population of methadone users across the country, so all of central and eastern PA's addicts don't end up in Kensington)
+
+These only address the demand side, to address drug supply:
+
+* Significantly increase the number of detective seats in PPD, across the board (starting in the homicide division, but including major cases)
+
+* Significantly increase the number of detectives working on (existing, successful) collaborations between the DA's office investigators, FBI/DEA investigators, and the US Attorney's office to interdict the major sources of heroin imports at the port
+
+* Subvert demand for untraceable Chinese cannabinoid analogs (which create the internet supply pipelines for later shipments of Chinese fentanyl and carfentanyl) by legalizing and regulating recreational cannabis and MDMA (among other drugs)
+
+And finally, yes:
+
+* Build safe injection sites because it saves lives.",1573765747.0,1,False,2qh24,,,,0,,,,,,14-11-2019,13:09:07,,,,False,dwa0h2,1
+26,f3xp0ev,,dif9uc,,,comment,Nylund,"My general feeling is that the scope of the problem is so large that a single safe injection site probably won’t do anything noticeable either good or bad.
+
+I wish McSwain wouldn’t distract himself from going after drug and gun traffickers with this SIS stuff.
+
+There’s obviously major criminal enterprises working to bring massive amounts of narcotics into the city. Surely some of that falls under the purview of a US Attorney, and surely his office’s resources are helpful. 
+
+But when he gets into these public pissing matches with people like Goldfein and Krasner he comes off like someone trying to engage in performative liberal bashing that he can use to heighten his profile amongst conservatives and further his political career, especially given that quite a few conservative politicians in the region (eg., Giuliani and Christie) used a US Attorney appointment as a political stepping stone towards a goal of a higher elected office in these more liberal parts of the country.",1571241699.0,1,False,2qh24,,,,0,,,,,,16-10-2019,09:01:39,,,,False,dif9uc,1
+27,f3xewcj,,f3u5ql1,5evo4,vestpocket,comment,km89,"Nobody is saying heroin use is safe.
+
+The point in safe injection sites is to reduce crime and violence by having a police presence, reduce death by having medical help available, reduce disease transmission by providing clean needles, and decrease total use by having get-clean resources available on site. 
+
+You're right that solving heroin deaths requires reduced use. Safe sites do that. And while I totally agree with absolutely draconian policies for those who sell, it's undeniable that safe sites provide tremendous social benefit, if at a local cost.",1571237126.0,1,False,2qh24,,,,0,,,,,,16-10-2019,07:45:26,,,,False,di7u7v,1
+28,f3w782d,,f3urlg6,3w6lwfq6,DinosaurDied,comment,zuesk134,"A person shooting heroin just on a bender is extremely rare. You can’t really use dope more then three days in a row without getting physically dependent. A person that does it but has a home/job/place to go would probably just shoot up in the place they have and avoid the safe injection site because they don’t need it. 
+
+There is almost no point in talking about ‘casual’ IV heroin users because they are so rare.",1571193707.0,1,False,2qh24,,,,0,,,,,,15-10-2019,19:41:47,,,,False,di89b0,1
+29,eyjg34f,,eyiq9g6,4758x3yf,morrowindscrib,comment,this_shit,"There aren't *that* many, and those are only in cases where the federal policymakers have chosen not to enforce laws that they otherwise could (e.g., marijuana legalization). In this case, the US Attorney (McSwain) has been thumping his chest about how he just can't wait to enforce the crackhouse statute against anyone seeking to open a safe injection site (a federal law that gives him the authority to prosecute owners of buildings in which illegal drug use is allowed or encouraged). 
+
+In a functioning democracy, Safehouse and SIS advocates would seek to get the law changed so that SIS would be exempted. But with the partisan divide eating up every last square inch of space for rational policymaking, it's much *more* likely that you could open one up and roll your dice with the prosecutors/courts.  
+
+Because McSwain is such a regressive blowhard, if an SIS does open during this administration, it'll probably be somewhere like NYC where the US Attorney (Geoff Berman) is actually focused on [solving problems](https://www.phillytrib.com/news/feds-ex-ceo-is-first-drug-exec-indicted-in-opioid/article_9e3c2225-6f9e-51cd-92a0-74d7f4033ad7.html) rather than earning publicity.",1567118497.0,1,False,2qh24,,,,0,,,,,,29-08-2019,15:41:37,,,,False,cx55ba,1
+30,eye6wwx,,eydp3im,31nsicgd,TreeMac12,comment,phil_e_delfian,"&gt; I also don't understand people who say there can't be any kind of law enforcement
+
+There can be, and there has. They've been sweeping corners down there on and off for at least 20 years. It hasn't had a great effect. Cops go away, dealers and users come back. There aren't enough cops in the city to police every corner down there 24/7. You can't arrest your way out of the addiction problem.
+
+&gt; like if you have a Safe Injection Site, can you also arrest people who cut a hole in the fence at McVeigh playground and leave dirty needles by the sliding board and take a shit near home plate?
+
+Well, cutting a hole in the fence is misdemeanor vandalism, littering is a citation, and I'm not sure, but public poopery is a summary offense, too, I think. None of that's going to get these people off the streets.
+
+&gt; There are people who say if they if you install a blue light on your property or in your business to deter drug use, you are committing ""symbolic violence,""
+
+Or, you're just keeping junkies away. I get that it's tough to live there, and believe you shouldn't have to live like that. I'm realistic, and know that, even with the SIS, some won't want to go there. If your blue lights and whatever help motivate them, that's good. Do whatever you can.
+
+Long-term, we have to stop viewing drugs as a moral failing and a law enforcement problem. Cops have known this for decades. Addiction is a public health issue, and needs to be treated that way. We're slowly moving that way. To me, the SIS is a step in that direction. It's a first step, and I won't lie to you and say it's going to make your life better right now. It won't. But, it won't make it worse. It's part of a process.",1567029632.0,1,False,2qh24,,,,0,,,,,,28-08-2019,15:00:32,,,,False,cwnew9,1
+31,eydp3im,,eydm09r,c7k67,phil_e_delfian,comment,TreeMac12,"I also don't understand people who say there can't be any kind of law enforcement - like if you have a Safe Injection Site, can you also arrest people who cut a hole in the fence at McVeigh playground and leave dirty needles by the sliding board and take a shit near home plate?  There are people who say if they if you install a blue light on your property or in your business to deter drug use, you are committing ""symbolic violence,"" but don't address the feelings of people whose homes get broken into and wake up to bullet holes in their cars.  The local media - particularly the Inquirer, WHYY and Billy Penn never seem to address any community concerns but portray us knuckle-dragging Archie Bunkers who don't know whats good for ourselves.  Most of them, Rendell included, talk like they've never spent any time here but know everything and can predict the future.",1567022507.0,1,False,2qh24,,,,0,,,,,,28-08-2019,13:01:47,,,,True,cwnew9,1
+32,ey3xka3,,cvfbo6,,,comment,coastbutter,"&gt;The Trump administration is currently suing to block what would be the first supervised injection site in the U.S. in Philadelphia, 
+
+they frame it like Philly wants it but Trump isn't allowing it.  no mention of the debate in its local context, stripping it of its nuances and allowing it to succumb to the idealistic tendencies of the politically binary brain dead reader.
+
+
+we should say YES to prevention point.  we should say YES to an increased availability and use of naloxone.  we should say YES to an increased availability and use of buprenorphine (and its chemical cousins).  we should say YES to an increased number of recovery programs that help with the reintegration process.  we should say NO to putting safe injection sites into neighborhoods that do not want them.",1566776362.0,1,False,2qh24,,,,0,,,,,,25-08-2019,16:39:22,,,,False,cvfbo6,1
+33,exzd67o,,exveesi,31nsicgd,TreeMac12,comment,Burn-Account,"This is the stupidest arguement I've ever heard.
+
+We have addressed the ""drug dealer issue.""
+
+It's utter crap. There are drug dealers all over Kensington Ave already. There are junkies shooting up on Kensington Ave already. There is piles of trash on Kensington Ave already. 
+
+The people who would use a SIS are not going to, you know, not buy heroin without the safe injection site. They already are buying the dope on the street now, using the dope on the street now, dying on the street now. 
+
+Maybe that is why a lot of us are fucking fed up with this argument. One side is trying to do good and help solve the issue, the other side is simply refusing to offer any sort of solution. Truth is, you'll just want K&amp;A to stay the damn same because your  lives aren't affected.",1566664250.0,1,False,2qh24,,,,0,,,,,,24-08-2019,09:30:50,,,,False,cughzc,1
+34,exl3dfm,,exj91xd,le7ck,Chasing_History,comment,TreeMac12,"Here is the Google streetview for Onsite, the safe injection site in Vancouver 139 E. Hastings St.
+
+Note the drug use going on right in front of their door:
+
+[https://www.google.com/maps/place/139+E+Hastings+St,+Vancouver,+BC+V6A+1N6,+Canada/@49.281406,-123.1011451,3a,18.3y,341.3h,81.64t/data=!3m6!1e1!3m4!1smVuBbnfy8TaAXWGzhQSqJQ!2e0!7i16384!8i8192!4m5!3m4!1s0x548671708d2ac5e9:0x7f2a5cbc33b30f70!8m2!3d49.2815437!4d-123.1012604](https://www.google.com/maps/place/139+E+Hastings+St,+Vancouver,+BC+V6A+1N6,+Canada/@49.281406,-123.1011451,3a,18.3y,341.3h,81.64t/data=!3m6!1e1!3m4!1smVuBbnfy8TaAXWGzhQSqJQ!2e0!7i16384!8i8192!4m5!3m4!1s0x548671708d2ac5e9:0x7f2a5cbc33b30f70!8m2!3d49.2815437!4d-123.1012604)",1566405083.0,1,False,2qh24,,,,0,,,,,,21-08-2019,09:31:23,,,,False,ct32fj,1
+35,etw0je4,,etlh6yh,5v05t,inexcess,comment,TreeMac12,"@1:14 
+
+Expert:  None of these ""urban campers"" are our clients
+
+Camper: I crash here because its convenient to the Safe Injection Site and its a place to find dope
+
+ [https://london.ctvnews.ca/overdose-prevention-site-blamed-for-homeless-encampment-but-health-officials-disagree-1.4506302?fbclid=IwAR00osfZPrPaZOWvNelichJNaW\_jUYZlKHiNOir6-hqdp3nDPIhO91lb95w](https://london.ctvnews.ca/overdose-prevention-site-blamed-for-homeless-encampment-but-health-officials-disagree-1.4506302?fbclid=IwAR00osfZPrPaZOWvNelichJNaW_jUYZlKHiNOir6-hqdp3nDPIhO91lb95w) 
+
+ \*\*\*\*
+
+Resident: Crime is up around the Safe Injection Site. Businesses are being broken into. Open air drug dealing and use has skyrocketed. The neighborhood is being left to disintegrate.
+
+Expert: No it's not. That's an unfair comment. Let's talk about something else.
+
+ [https://www.facebook.com/citynewstoronto/videos/vb.32204506174/1920205851412252/?type=2&amp;theater](https://www.facebook.com/citynewstoronto/videos/vb.32204506174/1920205851412252/?type=2&amp;theater)",1563249906.0,1,False,2qh24,,,,0,,,,,,15-07-2019,21:05:06,,,,False,cbx2gz,1
+36,epgqkd5,,bufwpl,,,comment,carlislecowboys,"I've seen a lot of people concerned that these sites would just open up new business to dealers and allow them to target an already vulnerable group. I don't think this is a valid argument against safe injection sites but I have a friend who work with a few organizations in Kensington specifically dealing with resources for homeless women, sex workers, and drug users and addicts. They mentioned that people have started selling directly outside one of their buildings and subsequently the police moved in to try and make some arrests. It obviously drives people away from seeking out services like these, since a bunch of police waiting right outside can make things pretty intimidating. It's a shame that people have to feel unsafe going to places designed to help those in need.
+
+That said, I'm in favor of the site because they provide a solution to an already significant problem. Kensington is one of the main shipping locations on the east coast for all sorts of hard drugs (H, PCP, Meth), and that massive amount and availability leads to use on the street often in the immediate area. I don't care if they change locations to appease the community, because residents should have the most important say in the matter as the presence of a safe injection site is itself a community issue, but we need them somewhere in this city. Safe Injection Sites are designed to provide a safer and healthier environment by ensuring the quality of the drug, providing clean needles and proper disposal of hazardous waste, providing trained medical staff if needed, and preventing overdoses. People in our city are dying from unsafe drug practices. People will continue to use drugs, and if they are not given a safe space they will continue to die. This is a city-wide (and honestly, national) community issue and if we don't address it members of our community will continue to suffer from untested, unsafe paraphernalia getting cut with increasingly more toxic fillers. These discussions often end up in an us vs them of ""normal people"" and ""junkies"" but this is an internal issue. *We* have an opiod problem, *we* have an overdose problem, and *we* need to support the people who are suffering from how large these issues have gotten. The drug trade systematically capitalizes on those already struggling by offering a quick reprieve from real world problems, and over time that can lead to a very real physical dependency on the substance. Programs like these are trying to give back some agency to drug users by ensuring they are safe. Nobody working at a safe injection site is supporting the heroin problem, they are supporting heroin users. Whether that's wrong or not is a matter of moral opinion, but currently these are the best option besides standalone treatment centers.",1559217103.0,0,False,2qh24,,,,0,,,,,,30-05-2019,04:51:43,,,,False,bufwpl,1
+37,eooijgm,,eoof7hs,cszu9,TripleSkeet,comment,potential1,"Addicts who want to continue to use likely would not use a safe injection site. They will have their own connections, gear and methods.  The resources they know are available at a SIS would likely cause guilt and shame creating even more of a deterrent. I dont blame you in anyway for the way you feel. I sympathize if anything. I've been there. I will agree however that it is a problem. An opiate addiction is a vicious roller coaster that literally never ends. No matter how much fun, at some point you just want to get off. The common phrase of ""chasing the dragon"" is all too real. Addicts use to feel good, but will never feel better than the very first time they get high. After the first time it's literally all downhill. For a time it's a fun ride. Then they become addicted and it's not fun anymore. Getting high just feels normal. At this point you either seek help or allow your life to begin to fall away. 
+
+The street junkies you despise are just a portion of those affected by the opiate crisis. These are not the people we would see at safe injection sites. Short of not having a needle these people will primarily use elsewhere.
+
+There is no cure for an opiate addiction. Prevention and education are the best weapons against the current crisis. Prevention cannot exist without an educated understanding of the issue and all of the people it affects. Despite the pain we need to remove hate and judgement from the equation.",1558739403.0,1,False,2qh24,,,,0,,,,,,24-05-2019,16:10:03,,,,False,bsghor,1
+38,ekprwr0,,ekpiwtf,,,comment,phil_e_delfian,"We don't totally disagree. I don't think it's good or healthy to have so much addiction concentrated in one area. I sympathize with the people who live there. It's just that supply follows demand, and there has been demand down there for 50 plus years now.
+
+Thirty five years ago, a friend (the Captain of a pretty large city's drug squad) told me that all the police could ever really do is move the problem around, and the only way we'd ever really deal with it is to legalize drugs and treat the addiction as a public health issue. After 35 years of the war on drugs, it's pretty obvious he was right.
+
+All moving dealers from neighborhood to neighborhood does is create new opportunities for turf wars over the new marketplace. That's never a good thing.
+
+You're right that Street did some good, but the biggest thing he did was NTI, which cleared out a lot of the abandoned properties used as shoot galleries and flop housed. It wasn't uncommon to peel back the plywood (when there was any) on those old shells over there and find five or six people shooting up in there. I remember when the area between 46th and 50th and Market was almost as bad. It wasn't the police who cleaned that up. Largely, it was Penntrification. Demand dried up. Places to sell and shoot up were suddenly occupied.
+
+Would I want to see a safe injection site in Society Hill? Of course not. Not because of the pristine wealth of the neighborhood, but because no one would use it. They go to K&amp;S because that's where the dope is, with or without the safe injection site. And they're not going wait to  go half way across town to shoot up.
+
+Is any of this ideal? No. Is it a step in the right direction? I think so. The real significance of the safe injection site is that it's a step in the right direction. Toward a real solution to help clean up Kensington and so many other areas. Stop punishing addicts for some sort of imagined moral failure. Treat them as people with a health problem, and treat the problem. Ultimately, legalize it. Sell it through dispensaries or pharmacies or whatever, and operate them like any other business. That's the only way we're ever going to change this.",1555077318.0,2,False,2qh24,,,,0,,,,,,12-04-2019,06:55:18,,,,False,bc962e,1
+39,ejwjpgu,,b87lwj,,,comment,somethingclever69420,Call me crazy but I would much rather have someone shooting up at a safe injection site than shooting up on my doorstep. Safe injection sites offer people the chance to use a drug more safely until they are able to get off of it. We have to help with the issue somehow....  ,1554154538.0,-1,False,2qh24,,,,0,,,,,,01-04-2019,14:35:38,,,,False,b87lwj,1
+40,ej3x6tl,,ej2rket,wxx2j,icallitwormlog2,comment,Mitchell-Goosen,"Not exactly what you are looking for, but  [this site](https://www.rehabs.com/blog/does-data-show-supervised-injection-sites-save-lives/) reports some positives as far as stopping individuals from shooting up in public. Which I would imagine would help improve a few of your points.
+&gt;
+    More than ninety percent of people at this location said they would otherwise have injected in a public area.
+    Sixty-seven percent said they would’ve disposed of their equipment unsafely.
+    An estimated 2300 instances of public IV drug use were prevented.
+    Nine percent of IV drug users at the safe injection site said they had used unclean needles, putting them at risk for HIV, Hepatitis C, and other blood-borne illness.
+",1553252667.0,1,False,2qh24,,,,0,,,,,,22-03-2019,04:04:27,,,,,b3sk4a,1
+41,ei1kutx,,ayimcc,wxx2j,,comment,theebiggloom,Hot take here: Don't think anyone's going to use a safe injection site ,1552013334.0,1,False,2qh24,,,,0,,,,,,07-03-2019,18:48:54,,,,,ayimcc,1
+42,efyd0uo,,efxxsmo,uqwal,BERNthisMuthaDown,comment,this_shit,"So - to be clear, I support SIS and I hope safehouse prevails in this suit - but the relevant question isn't whether or not state (or municipalities) need to enforce federal laws, it's whether or not the federal law that [makes it a crime to knowingly own a building where drug use is permitted would apply to Safehouse.](https://www.philly.com/philly/health/addiction/rod-rosenstein-safe-injection-site-philadelphia-opioids-20180830.html) The 'Crack-house' statute isn't about deputizing local law enforcement, it's about criminal liability applying to the owners and operators of the SIS (Safehouse in this case). 
+
+Here, the USA is proactively asking for declaratory relief (i.e., a clarification of the underlying statute), and Safehouse is relying on the judge to say 'even though the law says X, this clearly isn't what congress meant when they passed the law.'
+
+So that Cato argument isn't really relevant, nor are rulings about the deputization of local law enforcement for federal law. This is really a new legal question",1549558589.0,1,False,2qh24,,,,0,,,,,,07-02-2019,08:56:29,,,,,ao3muk,1
+43,e7uh2xr,,9oiqts,,,comment,Sailfast89,"I don’t understand really why t
+People who live in Kensington would oppose this the junkies are there only cause the locals of Kensington supply the drugs . Safe injection site would possibly take some of the open drug use indoors but honestly most junkies wouldn’t walk an extra 20 ft to shoot up anyway I’m sure",1539655318.0,-9,False,2qh24,,,,0,,,,,,15-10-2018,19:01:58,,,,False,9oiqts,1
+44,e7pfyym,,e7pfbys,1odqs6p6,FettLivesMatter,comment,BigGhetto,"&gt; Safe injection sites are the dumbest shit I’ve ever heard.
+
+I call that level of stupidity as ""philly retarded"".
+
+You need some NFL type brain damage to think that the first in the country ~~safe injection site~~ **illegal drug use assistance organization** will be ignored by law enforcement.",1539457480.0,-5,False,2qh24,,,,0,,,,,,13-10-2018,12:04:40,,,,False,9nucsb,1
+45,e7e7v5y,,e7e5kn8,bzzer,newcitynewchapter,comment,PhiladelphiaLawyer,"Imagine you live in one of those neighborhoods. Instead of saying we’re working on removing the drug use and crime that comes with it, we’re going to install a fixture that cements those elements in that area. 
+
+Who’s speaking for those who don’t want a safe injection site in their neighborhood? Are we just telling those people that it’s tough shit and they shouldn’t live in a poor area, your neighborhood already sucks so deal with it?  ",1539011062.0,19,False,2qh24,,,,0,,,,,,08-10-2018,08:04:22,,,,False,9mf5rq,1
+46,e7e5kn8,,e7e5f3w,l1bhet6,PhiladelphiaLawyer,comment,newcitynewchapter,"Well, the safe injection site is almost certainly going to be located in a neighborhood that's already suffering from a lot of (pretty open) drug use. If I had to choose between seeing people blatantly shot up and needles laying around, and a discreet building where I know people are using, I take the later 10 times out of 10.",1539008924.0,20,False,2qh24,,,,0,,,,,,08-10-2018,07:28:44,,,,True,9mf5rq,1
+47,e6lwl0k,,e6lwa3q,bjch8,dc122186,comment,lol_wut94,"you're not getting it, we're waving the H flag.  If we open a SIS we will have public officials going on record saying that people should go there to shoot heroin because it's safe.  We will have public officials inviting users to come to kensington to use this site.  The rate of people entering Kensington for heroin will INCREASE.  I take your reaction to be an acknowledgement of this and I ask, is this what's best for the people of Kensington?  To invite addicts from Trenton, Wilmington, &amp; rural PA to shit on their steps?",1537881888.0,1,False,2qh24,,,,0,,,,,,25-09-2018,06:24:48,,,,False,9irfg2,1
+48,e53pwc3,,e53mzri,,,comment,The_Prince1513,"No, what's being insinuated is that homeless shelters and this proposed safe injection site would likely have the same effect.  It will draw a large number of people to it from elsewhere in the region that otherwise would have no reason to be there, and then a large number of both the original population and the new arrivals will not be allowed to use it due to being disruptive or aggressive (both homeless and drug users have a much higher rate of mental illness and you know, disruptive and aggressive behaviors than normal people).  As such the actual amount of homeless or drug users at each of these places is not going to change very much, if at all, and would likely get worse in the case of the safe injection site as it would be the only one in the nation, and thus draw lots of people from very far away.",1535645341.0,0,False,2qh24,,,,0,,,,,,30-08-2018,09:09:01,,,,False,9bj4lc,1
+49,e53becd,,9bd9e7,jryui,,comment,uptown_gargoyle,"I'm on the fence about safe injection sites. I think they can be a decent tool as part of a broader strategy, but they're clearly not a standalone solution. 
+
+I also think that most or all of these protesters are trying to do good here. But, and I find myself saying this more and more lately, a protest is not an effective way of bringing about harm reduction policies in Philadelphia. 
+
+First off, even if city council gave it the okay, any safe injection site would have a target on its back for federal enforcement from day one. 
+
+Second, most Philadelphia residents would not accept a SIS in their district. I wouldn't. A protest will not change this. It's more likely to cause people to dig into their positions than to reassess. If it were an issue that most Philadelphians agree on (the global movement to end South African apartheid is the first historical example to come to mind), then a protest would make sense because it could be a starting point for concerted, planned mass activism. That won't happen here.
+
+Third, even if the point of a protest is to ""raise awareness,"" renting a billboard or buying newspaper or Facebook ads seems like an infinitely more efficient use of movement resources than tying up traffic for a few minutes and then trusting local news to portray the protest favorably. ",1535631754.0,7,False,2qh24,,,,0,,,,,,30-08-2018,05:22:34,,,,False,9bd9e7,1
+50,dyykbx8,,8jbkyy,,,comment,this_shit,"&gt;For example, he said, it is hard to “imagine how a safe injection site would not violate federal law,” said McSwain, who is still studying the idea and hopes to outline a more formal position in a matter of weeks.
+
+&gt;“If there are clear violations of federal law, I am not going to look the other way just because there is a desire among certain segments of the community or certain political bodies to do a certain thing,” he said, adding later: “I’m confident that once I make my position clear, no one’s going to defy it.”
+
+Presumably if you're not selling people drugs or paraphernalia? It's pretty easy to imagine a way that it's not violating possession laws. It's also easy to imagine ways an ambitious drug warrior prosecutor could construct legal liability...
+
+Is the city liable for drug use in other city-owned properties? Parks? What if the city parked an EMS truck at McPherson Sq.? Are we breaking the law yet? What if they set up a tent? Are we there?",1526307454.0,3,False,2qh24,,,,0,,,,,,14-05-2018,07:17:34,,,,False,8jbkyy,1
+51,dvrz2yz,,dvr5ak7,imizyk8,Scumandvillany,comment,Argentum1078682,"Think it's why I'm skeptical of a safe injection site. This isn't locals dealing with addiction, it's the Mecca of opioids out there.  People are going to come far and wide to buy and use.
+
+Sure, some will take advantage of the site but a lot of people aren't going to want to deal with anything structured. Why go tie off at a center when you can get your fix a block or two from where you scored? Sure, it is safer at a safe injection site but addiction inhibits the ability to think rationally.
+
+I don't mind having resources to help people struggling with addiction but it isn't going to address the drug problem in the area.
+
+The",1521168521.0,2,False,2qh24,,,,0,,,,,,15-03-2018,19:48:41,,,,False,84nqq7,1
+52,dvkqtad,,dvj0bzh,,,comment,Wu-Tang_Killa_Bees,"The problem of drug use is a much larger beast. The root of it is addictive behavior, which itself has all kinds of various roots. It seems that the city is being honest about how the safe injection site is just a bandaid to try to slow down the bleeding while we figure out other ways to tackle the problem on a larger scale",1520865043.0,1,False,2qh24,,,,0,,,,,,12-03-2018,07:30:43,,,,False,83il1f,1
+53,du7yo0y,,du7w54q,dbpsv,butterfly105,comment,Brioux,"Thanks for the response and for asking.
+
+I'm not a fan of safe-injection sites for a few reasons and one of which is the enabling factor which you understand.  That reason is why I don't support legalization but would consider / support decriminalization.
+
+Here are a few of the other major issues I have with the sites:
+
+1. **There's no requirement to seek rehabilitation or cease usage.** These sites act to prolong an addict's usage rather than persuade them to stop.  Their main goal is to keep people alive but someone could have an overdose prevented and be allowed to go right back to using the same day.  There's no requirement to go through rehabilitation or stop using.  I think this safety-net could lead to a vicious cycle of ever-increasing dosages.
+
+1. **Not as many people overdose on site.** Looking at [Vancouver's statistics](https://www.seattletimes.com/seattle-news/health/is-vancouvers-safe-drug-use-site-a-good-model-for-seattle/) people overdosing at these sites are relatively few in number.  In 2015 for instance the site saw ~264k visits and encountered only ~770 overdoses during that time.  That's a relatively small number considering the total number of visits and total cost.  Local city council has currently _[estimated](https://dbhids.org/wp-content/uploads/2018/01/OTF_Comprehensive-User-Engagement-Site-Report-clean_jg.pdf)_ that annually they would see 24k visits and prevent 24 to 76 overdoses.
+
+1. **The site itself would be considered a blight on the surrounding community.** Lot's of residents have expressed not wanting the site itself to be hosted near them.  It's introduction into a community certainly won't be good for property values or local businesses.  Some people suggest putting it in the communities which have been hit the hardest already, but wouldn't that just keep those communities permanently locked into addiction?  Plus nobody realizes how there are going to be addicts loitering around the site 24/7 and dealers will be serving their clients.
+
+   &gt; “What does the temptation of easy money in an impoverished community do to our young people in that community, for the sake of giving white kids from the suburbs a place to legally shoot an illegal substance,” asked Wilson.
+
+    [source](http://planphilly.com/articles/2018/02/12/what-safe-injection-sites-sound-like-to-people-on-the-front-lines-of-the-city-s-drug-wars)
+
+1. **Dealers get to operate in a legal grey-zone.**   They will undeniably be safer legally but also stand to benefit from people using the sites themselves.  If they're caught with their product they can just say they were on their way to the safe-injection site as if it were a get out of jail free card.  I think the sites will attract more dealers which will eventually lead to fights over territory.
+
+1. **Safe-injection sites treat a symptom of a larger problem.** These sites do nothing to address the reasons people are becoming addicted to the drug and instead focus on side-effects of using the drug.  In the past [fifteen years](https://www.theatlantic.com/sponsored/purdue-health/a-brief-history-of-opioids/184/) we've allowed pharmaceutical companies to offer broader varieties of addictive opioids in an effort to address ""pain management"" after they suggested [patients wouldn't become addicted](https://www.hhs.gov/opioids/about-the-epidemic/index.html) or dependent.  Among new heroin users, approximately [three out of four](https://www.cdc.gov/drugoverdose/data/heroin.html) report having abused prescription opioids prior to using heroin.
+
+    Limiting the availability of these opioids in both the pharmaceutical and street realms are what we need to be targeting in my opinion.",1518585180.0,-3,False,2qh24,,,,0,,,,,,13-02-2018,21:13:00,,,,True,7xcf8d,1
+54,dtdahet,,7tl7y5,6qhpu,,comment,Brioux,"&gt; “That place would be an open invitation for people to get high,” said Nikki Rosario, 35, a newlywed who works as an administrative assistant in the city.
+
+&gt;“And more people will come here to do it,” said Victor Rodriguez, 63, a retired accountant on a block whose residents have negotiated to keep drug dealers away, and so don’t want their street identified. “Everybody’s scared of that.”
+
+--
+
+&gt; Residents of this area — the epicenter of the crisis in  Philadelphia, which has the highest overdose death rate of any major American city — say they’ve shouldered a heavy burden already. They are frustrated they have few details on the sites, where people would be able to use drugs under medical supervision, be revived if they overdose, and access treatment and other services.
+
+--
+
+&gt; Yet reactions here do not line up neatly in us-against-them order. The one unifying belief: Whatever else happens, Kensington needs much more than a safe injection site.
+&gt; 
+&gt; Jessie Alejandro-Cruz, director of Mothers Mission, a local advocacy group, was checking on the well-being of drug users with her friend Charito Morales, a nurse and activist. She wants something different for the community than sanctioned places to inject drugs. “We’ve suffered enough. Kensington doesn’t deserve this.”
+
+--
+
+&gt; Inside the office, Lourdes Terreforte, the parish secretary, sighed. Her son, who’s 34, has been addicted to heroin for three years and is in prison.
+
+&gt; She understands that a safe injection site would likely decrease public drug use. But she can’t get past the idea of a city-sanctioned space to use drugs, even in a neighborhood where drug use is already so visible: “That’s giving them more right to shoot up heroin.”
+
+--
+
+&gt; “An injection site may keep users off the street, but my faith tells me it may contribute to addiction,” said Marerro. “For me, that’s confliction, brother.”
+
+--
+
+&gt; ###In addiction, wanting a way out
+
+&gt; There was an outlier: Jessica Bradshaw, 40, pushing her blond hair out of her eyes as she plopped onto a discarded office chair, said she needed a “place to get my [stuff together], not a place to shoot up — why not build a shelter?”",1517157184.0,2,False,2qh24,,,,0,,,,,,28-01-2018,08:33:04,,,,True,7tl7y5,1
+55,dt65z71,,7snpe2,88u66,,comment,Scumandvillany,"“When Vancouver opened a safe injection site in 2003, for example, the Canadian government established a legal exemption allowing people to use illegal substances at the site, according to the head of the police union, Tom Stamatakis.
+But Stamatakis said Tuesday that it was still illegal to buy or sell the drugs, and dozens of police officers were deployed to the neighborhood of the safe injection site to help prevent increases in petty or drug-related crimes.
+“There are issues there you have to carefully consider,” he said.”
+
+Above is a quote from the article. 
+
+This is exactly what is lacking from the proposal.  
+
+Where is the plan for increased police presence? 
+
+SIS is one facet in an overarching strategy.
+
+Where is the enforcement on the other side of the coin, like major crimes units getting more funding to go after the big players-coordinated investigations with the ATF, DEA, and federal authorities?  Not there. They should have a better plan in place before they attempt this or it is going to backfire and fail.
+
+Either way, mandatory treatment of all zombies wandering around Kensington is paramount to improve the quality of life for the people that live there.  (Like me) Loitering and public intoxication is against the law. Send em up to a drug court tent, then to detox and vivitrol. Give them support with caseworkers to reconcile with their loved ones and provide support for job training and placement. Hell, subsidize their life until they can get it together. Yes this will cost money. Yes, it’s bold. Float a bond issue and hire the police and support personnel necessary. Watch the city recover and bloom.
+
+
+
+",1516810029.0,7,False,2qh24,,,,0,,,,,,24-01-2018,08:07:09,,,1516810225,False,7snpe2,1
+56,dt5nd6n,,dt4ra0s,6ace3,Baron_Von_D,comment,HobbyPlodder,"&gt;people next to addiction counselors
+
+I was under the impression that safe injection sites don't really staff addiction counselors, and the approach is hands-off in regards to steering people toward treatment programs. The thought being that people won't use the site if they feel pressured. ",1516778328.0,2,False,2qh24,,,,0,,,,,,23-01-2018,23:18:48,,,,False,7sg2ma,1
+57,dt5ea94,,dt5dw71,3s39h,bestnottosay,comment,Brioux,"&gt; Why wouldn't you support a program that helps people in this situation, even if it is mostly ineffective?
+
+If you think safe-injection sites are going to stop heroin users from shooting up anywhere else, you're severely mistaking.  They may inject at the site, but they'll still inject at home, over their dealer's, and anywhere else they get the hankering to try.
+
+Even if they decide to only use at a site, if you've ever had anyone close to you use heroin you know they're a shell of the person they once were when using.  You don't get extra time with your loved one if their OD is prevented and they don't get clean afterwards.  Heroin steal's people's lives from them.
+
+It's why places like Vancouver are second-guessing their approaches.
+
+--
+
+The rest of your post is super bullshit and not worth any attention.",1516763995.0,-1,False,2qh24,,,,0,,,,,,23-01-2018,19:19:55,,,,False,7sg2ma,1
+58,dt4o9h4,,dt4nq6g,6qhpu,Brioux,comment,sanspoint_,"&gt; We could instead offer something along the lines of treatment, community, and rehabilitation facilities which help re-integrate people into society without the burdens of paving their own way.
+
+Here's the thing on that... for these to work, someone will have to want to get clean. And a good way to help someone want to get clean is to provide them with a space to use their drugs that also gives them community and support, which is the exact idea of a safe-injection site. What might be the bigger problem is a lack of larger-scale support for people to get clean beyond safe-injection sites. You have to start somewhere, though.",1516737027.0,9,False,2qh24,,,,0,,,,,,23-01-2018,11:50:27,,,,False,7sg2ma,1
+59,dt4kphl,,dt4jrlt,,,comment,Brioux,"&gt; &gt; Vancouver’s Insite supervised injection center opened in 2003 and has seen nearly 3.5 million visits since then. Here are statistics for use in 2015:
+&gt; 
+&gt; &gt; * 263,713 visits by 6,532 individuals
+&gt; &gt; * Average 722 visits per day
+&gt; &gt; * 768 overdoses
+&gt; &gt; * 5,368 referrals to social and health services
+&gt; &gt; * 464 referrals to Onsite detox center
+&gt; &gt; * 262 completed drug treatment.
+&gt; 
+&gt; &gt; Vancouver Coastal Health
+&gt; 
+&gt; https://www.seattletimes.com/seattle-news/health/is-vancouvers-safe-drug-use-site-a-good-model-for-seattle/
+&gt; 
+&gt; So of the 5,368 individuals only 262 completed drug treatment. That's an incredibly low number of ""success stories"" considering the high cost of handling an average of 722 visits per day.
+&gt; 
+&gt; According to these statistics only 768 overdoses were prevented over the span of 264,000 visits.
+
+It would seem like there's a ton of room for improvement in other country's implementations.  I'd like to see definitive goals laid out for what we hope to accomplish and to what extent, otherwise success us unquantifiable and the effectiveness of the site itself called into question.",1516733741.0,7,False,2qh24,,,,0,,,,,,23-01-2018,10:55:41,,,,False,7sg2ma,1
+60,dt4fwpt,,7sg2ma,db36iqt,,comment,Jawn_Valjorts,"&gt;The city also commissioned an independent report to study all available research on the sites. They concluded that they reduced overdose deaths, the spread of HIV and hepatitis C, encouraged more people into treatment, and reduced the neighborhood blight of open drug use. On average, public injections and discarded needles were reduced by half in the area around a  safe injection site, the report concluded.
+
+This is great news. Addicts are going to use because they're already addicted, this won't change that, but it will save lives and stem the spread of diseases. It's nice to see we're also looking to model after other cities that've had successful safe injection sites and harm reduction programs.",1516729289.0,109,False,2qh24,,,,0,,,,,,23-01-2018,09:41:29,,,,False,7sg2ma,1
+61,dsz60qw,,dsz5wlk,lpmhi,Wierd_Carissa,comment,Brioux,"If you overdose at a safe-injection site, that would mean the overdose was prevented.  So my secondary point was simply that the number of overdoses (768) rarely happen considering the total number of visits.
+
+My biggest issue with ""safe-injection"" sites is simply that they don't solve the problem leading people to use opioids, they only treat the symptom - and not even that effectively.",1516474144.0,0,False,2qh24,,,,0,,,,,,20-01-2018,10:49:04,,,,False,7rrtu0,1
+62,dsz5nze,,dsz5dm6,lpmhi,Wierd_Carissa,comment,Brioux,"And in case you were genuinely curious about the statistics since I don't think I've presented them to you, here is a good summary of how they're fairly ineffective:
+
+&gt; Vancouver’s Insite supervised injection center opened in 2003 and has seen nearly 3.5 million visits since then. Here are statistics for use in 2015:
+
+&gt; * 263,713 visits by 6,532 individuals
+&gt; * Average 722 visits per day
+&gt; * 768 overdoses
+&gt; * 5,368 referrals to social and health services
+&gt; * 464 referrals to Onsite detox center
+&gt; * 262 completed drug treatment.
+
+&gt; Vancouver Coastal Health
+
+https://www.seattletimes.com/seattle-news/health/is-vancouvers-safe-drug-use-site-a-good-model-for-seattle/
+
+So of the 5,368 individuals only 262 completed drug treatment. That's an incredibly low number of ""success stories"" considering the high cost of handling an average of 722 visits per day.
+
+According to these statistics only 768 overdoses were prevented over the span of 3.5m visits.",1516473704.0,-1,False,2qh24,,,,0,,,,,,20-01-2018,10:41:44,,,,False,7rrtu0,1
+63,dsu3jao,,dsu0zk5,6qhpu,Brioux,comment,gk128,"&gt; Oh here's a good one ""We need to try something new. We gotta try safe-injection sites! #Progress""
+
+So what is the alternative that isn't letting people OD in the street?
+
+At least in a safe injection site they will be able to use safely and have access to help if they choose to seek it rather than being alone in the streets.",1516224146.0,4,False,2qh24,,,,0,,,,,,17-01-2018,13:22:26,,,,False,7r27lo,1
+64,dsiznnp,,dsixod8,4xxxp,thisisalamename,comment,Brioux,"&gt; Is this a real question? Because there has been a lot of research on this in recent years. Briefly put, safe injection sites remove a social stigma and make it easier for addicts to get help while also cleaning up communities stricken by drugs.
+
+Uhhh.. Have you actually read reports?  The majority do not seek help through safe-injection sites.  It sounds like you're just regurgitating some talking points you read elsewhere.
+
+
+&gt; Vancouver’s Insite supervised injection center opened in 2003 and has seen nearly 3.5 million visits since then. Here are statistics for use in 2015:
+
+&gt; * 263,713 visits by 6,532 individuals
+&gt; * Average 722 visits per day
+&gt; * 768 overdoses
+&gt; * 5,368 referrals to social and health services
+&gt; * 464 referrals to Onsite detox center
+&gt; * 262 completed drug treatment.
+
+&gt; Vancouver Coastal Health
+
+https://www.seattletimes.com/seattle-news/health/is-vancouvers-safe-drug-use-site-a-good-model-for-seattle/
+
+So of the 5,368 individuals only 262 completed drug treatment. That's an incredibly low number of ""success stories"" considering the high cost of handling an average of 722 visits per day.
+
+According to these statistics only 768 overdoses were prevented over the span of 3.5m visits.
+
+
+&gt; Its almost like those policies in place for decades created a culture that enabled this to happen... Nah thats just crazy talk.
+
+You're drawing an illusory correlation here.  You could also say ""Well since the number of humans on the planet has been increasing, we've seen heroin usage increasing too"".
+
+&gt; There is no way that teaching kids that heroin and marijuana are on the same level would lead to more kids doing heroin.
+
+I don't agree with Sessions on this.  It's okay to disagree with this - but what do you think Kids are going to actually think when they find out that heroin usage is okay and you can go to your DR to get some to shoot up?  Heroin is not Marijuana.
+
+&gt; I agree. If only there was some safer alternative. Maybe a plant that grows like a weed... Im sure the GOP would be all for that right? Right?
+
+Lots of the GOP supports it.  Sessions does not which is a shame, but take a potshot why dontcha.
+
+&gt; PSSST imma let you in on a secret here, thats what the safe injection sites do. Just dont tell anyone. We try to keep this on the dl.
+
+lmao uhh you're clearly misinformed.  Many safe-injection site instances do not because they don't want to annoy the users from injecting on premise by pushing them into rehabilitation.",1515690858.0,3,False,2qh24,,,,0,,,,,,11-01-2018,09:14:18,,,,False,7piq50,1
+65,dsix3cb,,dsiwm0m,4xxxp,thisisalamename,comment,Brioux,"Explain to me how safe injection sites or government issued heroin **lowers** the number of people actively using?
+
+&gt; keep pushing the same policies that got us into this mess
+
+Bullshit.  The opioid usage surge has happened over the past ten years give or take.  The existing ""policies"" have been in place for much longer.
+
+People that actually analyze the rise in usage suggest that it's partially due to availability and partially due to our economic situation.  Policies designed to take the supply off the streets while our economy continues to grow will inevitably result in fewer people turning to heroin.
+
+The other issues which people love to gloss over are the over-prescription of opioids from doctors.  Many people's addiction starts from a legal source.  We need to crack down on doctors and companies that recklessly push opioids onto their patients.
+
+Past that, we also need to make available rehabilitation and mental health treatments for those who are currently using and want a way out.
+
+--
+
+Handing people heroin to use is not going to make the problem better.  Giving people a ""safe site"" to inject at is only going to treat a single symptom of the epidemic.",1515688397.0,0,False,2qh24,,,,0,,,,,,11-01-2018,08:33:17,,,,False,7piq50,1
+66,dpniasb,,dpni3pu,i1h1b,rubiredd,comment,Brioux,"The people injecting heroin while driving are not going to stop.  Junkies may choose to use a safe-injection site when they're nearby but as evidenced in cities that have implemented this, it doesn't contain them.
+
+Personally I'd rather see a crackdown on dealers and distributors.",1510372992.0,-23,False,2qh24,,,,0,,,,,,10-11-2017,20:03:12,,,,,7c5v8g,1
+67,dpngvfp,,dpngfn2,mrw0m,everydayasOrenG,comment,Brioux,"&gt; Vancouver’s Insite supervised injection center opened in 2003 and has seen nearly 3.5 million visits since then. Here are statistics for use in 2015:
+
+&gt; * 263,713 visits by 6,532 individuals
+&gt; * Average 722 visits per day
+&gt; * 768 overdoses
+&gt; * 5,368 referrals to social and health services
+&gt; * 464 referrals to Onsite detox center
+&gt; * 262 completed drug treatment.
+
+&gt; Vancouver Coastal Health
+
+https://www.seattletimes.com/seattle-news/health/is-vancouvers-safe-drug-use-site-a-good-model-for-seattle/
+
+So of the 6,532 individuals only 262 completed drug treatment. That's an incredibly low number of ""success stories"" considering the high cost of handling an average of 722 visits per day.
+
+Not sure where you're getting the 25% number from but according to these statistics only 768 overdoses were prevented over the span of 263k visits.",1510370829.0,-11,False,2qh24,,,,0,,,,,,10-11-2017,19:27:09,,,,,7c5v8g,1
+68,dpdf59l,,dpd71ev,88u66,this_shit,comment,George_Green,"Even better, residents will have to turn at least one room of their houses into a safe injection site, and 911 will be retooled into an app junkies can use to contact the police to come with tax payer subsidized heroin to inject the user. Win/win!",1509877169.0,-5,False,2qh24,,,,0,,,,,,05-11-2017,02:19:29,,,,,7aqtip,1
+69,dp3gnr7,,dp3g0kt,,,comment,rubiredd,"From what I've heard, Prevention Point is trying to acquire the old Village Thrift building on Kensington Ave to open a shelter/drop in center.  If they're able to make it a safe injection site too, then yes, I think that will go some ways toward decreasing the number of people on the street.  Other cities that have opened SIS's have made them for drug use only, with a short time limit, but there's no rule that they have to function like that.  There could be a supervised area for injection drug use, and the rest of the space could be like a typical drop in center where they could sit and nod out on couches, use the bathroom, whatever.",1509375500.0,1,False,2qh24,,,,0,,,,,,30-10-2017,07:58:20,,,,,796ia0,1
+70,dokhbv0,,dokd2xj,ef3f6dc,alohafrompenisland,comment,redwoodser,"&gt; they're really expensive for something that barely reduces overdose deaths.
+
+That is a fucking lie and it's been proven to be a lie for many years and by many countries all over the world.
+
+__Analysis: Amid opioid abuse crisis, safe injection sites are a step forward__
+
+
+By Nathaniel P. Morris, 05/12/16 
+
+“Other parts of the world have effectively answered that question for us: Supervised injection sites have existed for years in countries like Canada, Australia, Spain, and Switzerland. According to a 2015 report by the European Monitoring Centre for Drugs and Drug Addiction, decades of international research have found “no evidence to suggest that the availability of safer injecting facilities increases drug use or frequency of injections.”
+
+“Instead, this report details a long list of public health benefits from these facilities. Research suggests safe injection sites lead to reduced numbers of fatal overdoses, decreased risky injection behaviors, decreased public drug use, and increased entry into drug treatment. In one striking example, a 2011 study of a Vancouver injection site found the rate of overdose deaths decreased by 35 percent in the surrounding area following the facility’s opening.”
+
+“The idea of supervised injection sites is spreading nationwide. Policymakers in California, Massachusetts, and Washington, among other places, are now considering similar proposals. Last year, the editorial board of The Boston Globe came out in favor of safe injection sites.”
+
+“Thousands of Americans are dying as the opioid crisis rages across the country. Why are we still resisting evidence-based approaches to save them?”
+
+
+
+http://www.msnbc.com/msnbc/analysis-amid-opioid-abuse-crisis-safe-injection-sites-are-step-forward",1508376950.0,4,False,2qh24,,,,0,,,,,,18-10-2017,18:35:50,,,,,778x1g,1
+71,dokd2xj,,dok1qk4,,,comment,alohafrompenisland,"It's not public opinion, it's that **safe injection sites simply are not an efficient solution** because, as gets discussed in every Safe Injection Site Thread (I'll nominate myself as moderator) they're *not for curbing heroin use* AND to be even remotely effective at preventing ODs on a large-enough scale, you would need a warehouse the size of Lincoln Financial Field. I can bust the math and stats out for you if that's easier.
+
+I've done copious research on SIS around the world, and other heroin harm-reduction programs in Europe. SIS is a nice idea. They're probably not going to make things worse. But they're not designed for curbing heroin use, and they're really expensive for something that barely reduces overdose deaths.",1508371818.0,1,False,2qh24,,,,0,,,,,,18-10-2017,17:10:18,,,,,778x1g,1
+72,dn3nfqv,,dn3f7lb,,,comment,HotAndAllOverMyLap,"Safe injection site are not funnels for rehab, and theyre not designed for that purpose. If someone asks for help, they'll have literature and can point someone in the right direction, but SISs operate with the primary purpose of safe use, not reduction.",1505600276.0,9,False,2qh24,,,,0,,,,,,16-09-2017,15:17:56,,,,False,70if4z,1
+73,dn0uxmn,,dn08snu,,,comment,IHateEveryone100,"&gt; Enforcement is a waste of time, money, and resources better used elsewhere. Drug use should not be a crime anyway. Locking up junkies is wasting tax payer money more than a Safe Injection site ever would.
+
+Letting them die would cost even less.",1505439719.0,5,False,2qh24,,,,0,,,,,,14-09-2017,18:41:59,,,,False,702oxj,1
+74,dn0modj,,dn0lm2h,,,comment,throwaweight7,"&gt;It's safe, cheaper, and helps keep it off the streets how it is a bad idea?
+
+
+
+
+Keeping what off the streets? It's still going to be sold on the streets. The violence associated with the illegal drug trade is still going to be on the streets. The petty crime addicts use to fuel their habit will still be on the he streets. Who is it safer for? It's safer for addicts to shoot up but just as dangerous to cop? It safer for kids because needles aren't all over the street, but how safe is it to walk passed the ejection site after dark? 
+
+
+Will it be cheaper for Philly when the DA rolls out the welcome mat to addicts all over the country? Says, *we're not gonna hassle the addict in Philly*, is that gonna be cheaper or safer for anyone?
+",1505429249.0,6,False,2qh24,,,,0,,,,,,14-09-2017,15:47:29,,,,False,702oxj,1
+75,dn08ztg,,dn08dzo,,,comment,ewyorksockexchange,"There is actually some literature out there on this, and it generally suggests that what you say is not true. 
+
+[""In summary, the present study suggests that the opening of North America's first medically supervised safer injecting facility was not associated with a marked increase in drug trafficking or acquisitive crimes in the year after the facility opened.""](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1471778/)
+
+There is no reason why the introduction of a safe injection site to a neighborhood already severely impacted by open air drug use would necessarily lead to an increase in the activities you describe. I would say that there is a major difference between methadone clinics and safe sites, mainly in that you are centralizing drug *distribution* with the former. In areas where open air drug use is already centralized, these safe injection sites have no impact on crime and positive impacts on public health. ",1505414386.0,4,False,2qh24,,,,0,,,,,,14-09-2017,11:39:46,,,,False,702oxj,1
+76,dn08snu,,dn08965,,,comment,gk128,"Enforcement is a waste of time, money, and resources better used elsewhere. Drug use should not be a crime anyway. Locking up junkies is wasting tax payer money more than a Safe Injection site ever would.",1505414178.0,10,False,2qh24,,,,0,,,,,,14-09-2017,11:36:18,,,,False,702oxj,1
+77,dkzqrnk,,dkteae8,,,comment,ColonelCluster,"&gt; Correlation =/= causation.
+
+That may be true. And yet in 2016, a few months after Kenney enacted the change, he used a slight decrease in crime as proof that the policy was effective. The crime rate has inched up again, and suddenly folks like you are again arguing ""correlation != causation"". Yes, opioids may be a factor. That's traditionally been the worst in areas with high unemployment, and Philly's unemployment rate is higher than both the state and national levels. However, the opioid crisis has been ongoing for several years and isn't something that suddenly started in 2016 when Kenney took office.
+
+The theory in favor of sanctuary cities is that it encourages illegal immigrants to report crimes and cooperate with police investigating non-immigration related crimes. If this theory were true, then there'd be higher crime outside of sanctuary cities, but the opposite is true. Lookup crime heat-maps on any real-estate listing site, and some of the highest levels will be in neighborhoods with high populations of illegal-immigrants, Philly included. As soon as I drive outside of Philly's city limits, the probability of me getting shot or mugged drops significantly.
+
+The concept of the sanctuary city is naive and ignores how criminals, especially organized gangs, will still use threats of violence to hamper witnesses from cooperating with police. So you're left with a policy that attracts criminals who know they'll be safe from police.",1501549881.0,1,False,2qh24,,,,0,,,,,,31-07-2017,18:11:21,,,,True,6pz7u9,1
+78,dkimwsc,,dkim4gt,rl21i,Bill-fn-murray,comment,lol_wut94,"&gt;Giving people a safe injection site, where they have access to clean needles, medical care if needed and a path to detox and recovery is a much better use of resources than just arresting people and putting them back out on the street.
+
+I don't understand why this is an either-or proposition.",1500637270.0,4,False,2qh24,,,,0,,,,,,21-07-2017,04:41:10,,,,False,6olws4,1
+79,dkim4gt,,dkik8oe,,,comment,Bill-fn-murray,"No, its the ""not in my backyard"" mentality.  Which from a certain perspective I could understand, but it doesn't do anything to help the issue.  This harm reduction needs to happen.  The source of the heroin isn't going to go away, nor is the demand.  
+
+Giving people a safe injection site, where they have access to clean needles, medical care if needed and a path to detox and recovery is a much better use of resources than just arresting people and putting them back out on the street.  This cycle 
+of arrest, detox in jail and turfed back onto the street is literally just a perpetuation of police policy over the last 50+years and has proven itself over to be ineffective i.e. The war on drugs.  
+
+This program has the potential to take the strain off of emergency services and contribute to a better public health situation by lowering the spread of HIV, Hepatitis and a whole host of communicable diseases.  So in the long term it's an investment in public health not just a ""place for addicts to get high at our expense.""
+
+",1500635586.0,2,False,2qh24,,,,0,,,,,,21-07-2017,04:13:06,,,,False,6olws4,1
+80,dkiflxc,,dkiate8,cxbce,Philadelinquency,comment,IEatTrousers,"&gt; help turn your neighbors opinions around on Safe Injection Sites and get them to support it. Without the public support
+
+Or just get the junkie fucks out of the city, and spend the money on less fortunate people who actually need it. I guarantee if a town/city enacted a policy where the only ""safe injection site"" was a steel jacket to the back of the head, you'd see heroin use and the number of junkies drop dramatically. Spend the money on lower education, if anything. Many drug addicts are unable to be saved.
+",1500618716.0,12,False,2qh24,,,,0,,,,,,20-07-2017,23:31:56,,,,False,6okuf8,1
+81,dhv6hcg,,6cibob,,,comment,Baron_Von_D,"Downvotes?...ok. So the city is actually trying to come up with plans on how to manage the opioid issue and you just want to have petty complaints. Don't even want to discuss the effectiveness on parts of the plan or considering that it might actually save people's lives.  
+So, I guess lets just go back to bitching and complaining on reddit about addicts, not doing anything constructive about it? Super. Awesome. Way to be useless garbage people.  
+  
+*Oh wait, it costs tax dollars to police addicts and dealing with people overdosing in the streets? Or safe injection sites could reduce addicts from inhabiting shitty heroin camps...you know, that cost the city in having to clean up and deal with those areas. But lets just keep looking at those up-front tax dollars.*
+
+----------------------------------------
+(Original comment)--&gt;  
+  
+[This document](http://www.ohtn.on.ca/Pages/Knowledge-Exchange/Rapid-Responses/Documents/RR83-Supervised-Injection-Effectiveness.pdf) from Ontario HIV Treatment Network going over supervised injection, since Ontario is also looking into funding safe injection sites. (I know it's not in the US, but it's good info)   
+Here are the bullet points, I suggest also reading the document in full: 
+  
+-------------------------------------------------------  
+#What is the effectiveness of supervised injection services?  
+**Question**  
+*What is the effectiveness of supervised injection services?*   
+  
+**Key Take-Home Messages**  
+  
+- The use of supervised injection services can lead to reductions in injecting behaviour and an increase in the number of clients accessing addiction treatment services.
+- Supervised injection services can be cost saving when the analysis takes into account their capacity to reduce transmission of blood-borne diseases, namely HIV and HCV.  
+- People who inject at supervised injection sites feel safer than those who inject publically.  
+- Overdose morbidity and mortality are reduced when clients inject at supervised injection sites. Clients who inject at supervised injection sites receive education on safer injecting practices that helps reduce injection-related morbidity.  
+- When nursing care is provided at supervised injection sites, clients access nursing services frequently.  
+- Supervised injection sites do not lead to any significant disruptions in public order or safety in the neighbourhoods where they are located.  
+- Supervised injection sites pose a few challenges based on their operating models and regulations: if capacity does not meet demand there may be long lines that dissuade some clients from injecting at the facility; there will still be times when clients have no choice but to inject elsewhere when facilities are not open 24 hours per day, 7 days a week; some clients cannot inject independently and will not use supervised injection services that prohibit assisted injections; and when facilities prohibit splitting or sharing drugs on site, some clients might be excluded. 
+
+----------------------------------
+
+Also, Here is a paper written on safe injection sites. More good info.    
+[A critical review of the effectiveness of safe injection facilities as a harm reduction strategy](http://d-scholarship.pitt.edu/18375/1/CarrieLingle_-_FinalThesisEssay.pdf)",1495411002.0,16,False,2qh24,,,,0,,,,,,21-05-2017,16:56:42,,,1495418900,,6cibob,1
+82,dhss90d,,dhsr20i,88u66,this_shit,comment,SpOoKy_EdGaR,"I edited the shit out of my comment so not sure if you saw that, but in case you did and need further clarification, harm reduction is things life safe sites. Needle exchange trucks, nurses volunteering to perform injections etc. as far as I know for opiates. But the user is still totally unaware of what is in their bag. Is it heroin and alcohol? Fentanyl? How strong? What ratios? The OD comes from using a larger amount than your body has tolerance for, so even if heroin wasn't cut with anything you can die from a dose. If it's cut with fentanyl you're gambling even harder. The safe sites, as far as I know, don't screen for the chemical composition of the substances that clients use on site. Since they can't realistically assess the client's tolerance, but they're about to administer a dose anyways, you have to worry whether or not the user may OD based on the purity. Then you factor in what it's cut with. Another OD risk. Since the OD deaths come from using too much of something you don't have tolerance for, I think that unless these sites can somehow assess these factors and control for them when dosing clients, it doesn't do much other than provide a temporary and false sense of safety. I appreciate your respect for the field, and I wouldn't want cops writing policy either. I totally admit that I'm biased (I work in treatment). But even trying to be objective, it's such a complex and dangerous thing to try to do safely - I feel like the harm reduction is in things with no immediately relevant benefit (clean needles so no HIV, avoiding using the same vein to prevent vein collapse, giving out hygiene or ""doing therapy"" as you dose a client - crock of shit imo) compared to what might be gained if an equal force in time, effort and money went to treatment funding and community education and outreach. For what it's worth I have a degree in community psychology and used to be very into substance abuse and harm reduction, but as I work on my MSW and continue to work ""on the ground"", my perspective has entirely shifted. It really changed for me when I got in the field and out of the classroom. I readily admit this as limiting even the degree to which I can be objective, but having spent a shitload of time studying this stuff and then getting out into the field itself really changed how I look at this all. I wasn't going to comment because I don't like to feel exposed like this, but I appreciate your sensitivity to the whole thing. I want to help people as much as anyone else, but we don't all see eye to eye on the best way to do that. Don't hate on people who think like me though because it really is with best intentions. I'm rambling like crazy and I apologize.",1495255734.0,3,False,2qh24,,,,0,,,,,,19-05-2017,21:48:54,,,1495256120,,6c58tt,1
+83,dhsqw4y,,dhsnil1,b0ynw,ghost_of_deaf_ninja,comment,SpOoKy_EdGaR,"I work with addicts and 100% think we need to work on ending the problem more than harm reduction. It's a band aid that doesn't do much to stop the bleeding at the source. Treatment and prevention stop people from using, and that should be the goal. If a user decided not to go get treatment because they could ""use safely"" this afternoon at the ""safe site"" (and I wonder how they define this safety), but then needs a fix that night when the site is closed or unstaffed or the truck left or whatever the circumstance is such that they don't have access to it, and the user ODs and dies, then what? How do you tell yourself this was ok? Because at least he was safe for a little bit? Not to mention that the addict's quality of life is likely still awful. This does absolutely nothing to better the life of an addict who is homeless and robbing people to fund their addiction. They continue the same harmful and dangerous behaviors that extend outside of their own life and into the lives of others. If the money that is put towards this was instead used for treatment outreach and growth of treatment programs that user could've instead learned of a rehab with a bed open for them and transportation ready to pick them up. They could have stayed alive and had a chance at life. When I think of it on these terms I cannot advocate prioritizing harm reduction over treatment. There are too many holes in reduction that put more lives at risk than would otherwise be if the same human effort and financial power went toward treatment programs.
+
+And you talk about this like the epidemic has been ongoing for 50 years. Opiate addiction skyrocketed within the last 15 years or so after the enormous increase in px of painkillers which were originally marketed to docs by the pharmaceutical companies as non-addictive. Do we need a change to combat the epidemic? Yes. But imo (as someone who works in addiction and has worked with literally hundreds of heroin addicts young and old) putting money towards something that makes it easier to continue addiction, when that money could have gone towards treatment and outreach, is unequivocally the wrong choice.",1495253307.0,7,False,2qh24,,,,0,,,,,,19-05-2017,21:08:27,,,1495254701,,6c58tt,1
+84,ddzuoxd,,ddzpt1h,101vbj,WheresRet,comment,number34,"[One was just released this month.](http://globalnews.ca/news/3236887/researchers-recommend-supervised-injection-site-in-old-east-village-or-downtown-london/)
+
+&gt; A summary of findings to date shows that supervised injection sites around the world reduce public disorder, reduce syringe sharing, increase safe injection behaviour, increase use of detox programs, reduce acts of violence against women and avert overdose deaths.",1487629804.0,4,False,2qh24,,,,0,,,,,,20-02-2017,14:30:04,,,,,5v4z6a,1
+85,dcu5xm0,,dcszy52,,,comment,Damadawf,"Lol, subreddits like r/the_donald and r/altright are some of the most heavily moderated subreddits on this site. If you use them then you probably know all about safe spaces :\^)",1485257895.0,3,False,2qh24,,,,0,,,,,,24-01-2017,03:38:15,,,,,5pqgpp,1
+86,dcttlh3,,dctn1ko,3jllw,Simon_the_Cannibal,comment,beleca,"**HA!  You deleted the comments agreeing with me, then you edited your comment to say ""tits or you're banned"", then you banned me for not complying with your retarded demand that you made in an edit after I already replied... this is some middle school shit here.  Not only can you not handle criticism, you can't even coherently argue or justify your actions, so instead you edit or delete comments and ban people.  You're not smart or honest enough to debate, so you use the little power you have in this sub to cheat and censor and make it seem like then only posts agree with you, when in reality before you deleted them, most were seconding my criticisms.  Truly pathetic.  There are honest people with whom I disagree who can handle a debate or disagreement without trying to silence people.  You aren't one of them, and you don't even seem to understand why people are criticizing you, because you constantly change the subject and reply to arguments that were never made.  Pathetic.  Go ahead and ban me again, I don't give a care.  You can have your shit sub all to yourself.  And since you apparently don't understand why so many people have been critical and eager to leave, soon enough you will have this sub all to yourself, and it'll just be you in your little safe space, calling everyone else nazis and bitching about their mean scary words.  Good job.  You're just driving more and more people to the side you're not on.**  I made this an edit because your little ban means I can't write new comments.
+
+
+
+&gt;""I will argue all day, but as soon as you start linking or talking in alt-right talking points you can fuck right off. It is not a legitimate stance. Period. We are not going to let alt-right/neo-nazi fucks take over this sub, and I wish Reddit admins would start banning their toxic subs.""
+
+
+
+Is what I was referring to.  You keep changing the subject, even in your post.  There are 3 different issues here: 1) trolling, 2) ""hate speech"" &amp; 3) death threats.  If you wanna ban people for trolling, whatever.  But you said that you'll ban people just for expressing opinions that someone (ie you) deemed to be alt-right; this is censorship.  Even if you keep calling it ""hate speech"", it's censorship.  And when you ban (i.e. censor) people for their *ideas* instead of the way those ideas are expressed, eg through trolling or rule-breaking, then you are arbitrarily censoring people which makes you the bad guy to a lot of people.  If you said ""this isn't a political sub, so we'll ban you for discussing politics"", that'd be one thing, but you're saying political discussions are ok as long as your ideas fall within the range of what I consider acceptable.  Most people on reddit do not like this kind of autocratic censorship, and as I said before, you're going to drive people towards the alt-right and away from this sub.  
+
+
+
+
+As for people receiving death threats, that's against site rules and it's illegal.  You should report them to reddit and the police and ban them if you want.  But thats a totally separate issue from the issues of censorship and trolling.  It doesn't make sense to pretend that one caused the other.",1485230141.0,8,False,2qh24,,,,0,,,,,,23-01-2017,19:55:41,,,1485305421,,5pqgpp,1
+87,db5prka,,db5kz97,101vbj,WheresRet,comment,this_shit,"&gt; maybe we should focus on the causes of heroin use
+
+They aren't mutually exclusive. You can (and we should!) focus on both at the same time. Safe injection sites should focus on keeping people alive at the lowest financial and human cost. But they should also provide access to treatment options for people who want a way out. Obviously most addicts won't walk into a safe injection site and immediately get clean, but the only way to make sure someone will **never** get clean is for them to OD. 
+
+As for costs, there's a massive unseen cost to the status quo, both in terms of explicit financial costs, and implicit opportunity costs. 
+
+Explicit costs of junkies without safe places to inject include:
+
+* ER visits and EMS calls: Conservative estimates would be $500-$1000 per EMS call, and several thousand for an ER visit. Plus, the cost of the drugs themselves. If a shelter could avoid one EMS call per month, they'd already be making rent.
+
+* Long-term healthcare costs: safe injection sites would facilitate the distribution of clean needles, reducing the long-term costs of new HIV infections. 
+
+* Crime-associated direct costs: safe injection sites would reduce crime associated with street loitering and life. This includes basic property crime, but can also include some violent crime.
+
+Although the explicit financial costs are high, the implicit costs of street junkies are much greater, and include a wide variety of things:
+
+* Quality of life-related impacts (including property values): junkies using on the street contribute to a number of undesirable QoL outcomes like more loitering, littering, robbery, and street crime. These, in turn, destroy tremendous value for property owners
+
+* Sunk child-rearing and educational costs: This is related to the last bullet below, but in this country, every person gets a free elementary-high school education. This comes at an extraordinary cost (~$200k, on average, if I remember correctly). All of this investment in a person is wasted if they die, or remain an addict.
+
+* Grieving costs: When a junkie dies, they are sometimes survived by grieving family members and loved ones who experience real harm by their loss. Making economic estimates of these types of loss is very difficult (""would you rather have $100k or your son back? $500k?""), but they are nonetheless real. 
+
+* Lost productivity: Perhaps the most important cost, when a junkie dies (or, alternatively, just fails to get clean), all of their future potential disappears, and we all lose. I don't mean that in a new-agey way. I mean, they could have been a construction worker, or a retail clerk, or an engineer, who provided added value to the economy by selling their labor for a wage. Instead, they're gone. ",1481664857.0,4,False,2qh24,,,,0,,,,,,13-12-2016,13:34:17,,,,,5hyeur,1
+88,db5gavh,,db4ryho,,,comment,rubiredd,"I don't think this kind of program is really analogous to a methadone clinic though.  No one is going to travel there just to shoot up; addicts will go to where the drug dealers are, and if there's a safe injection site right there, yes they'll probably use it.  Otherwise they'll just shoot up in abandoned buildings or in their cars like they always have, or take the drugs home and do them there.  
+
+Methadone clinics on the other hand...that's more like if the city was giving out free heroin, and so they draw a large number of people who wouldn't otherwise be there.",1481654322.0,3,False,2qh24,,,,0,,,,,,13-12-2016,10:38:42,,,,,5hyeur,1
+89,d7mlbvo,,52q2by,5fln6,,comment,DopeYeti,"Welcome to Philly! It's a shame you won't be staying for longer, but you're going to have a great mini-day while you're here. This is what I suggest to make the most of your time here, allotting about 5 hours of ""City Time"" to play it safe:
+
+1.Take the SEPTA airport line to Jefferson Station: It's cheap, leaves every 30 mins, and takes only 30 mins to put you right in the heart of center city. This stop will be after Suburban Station so you can keep a heads up on when to get off. (30 mins)
+
+2.Eat lunch in Reading Terminal Market: After arriving at Jefferson Station, you'll want to walk north up 11th St., then make a left either on Filbert St. or Arch St. Both streets will lead you to Reading Terminal, which is rather large. Give yourself under an hour to explore the vendors and have a bite or two, but if it's super crowded don't bother staying any longer just to wait in lines. For vendors, I recommend Termini Brothers, DiNics, Beiler's, and Famous 4th Street Cookies. (30-45 mins)
+
+3.Take a walk through Chinatown towards Independence Hall: This is only about a 10 min walk. After leaving Reading Terminal, walk east down Arch St. You'll pass the famous Chinatown Friendship Arch at 10th and Arch, and enjoy fun sights and smells from the East Asian vendors. Keep walking down Arch,  then make a right on 6th St. Walk south until you reach Market St. Here, you'll find the Independence Visitor Center. (15 mins)
+
+4.Take the Hop-On Hop-Off Big Bus Tour: I cannot recommend this enough!!! I'm a Philly native, have taken the tour several times myself, and use this as my go-to recommendation for visitors. You'll purchase the tickets at the visitor center. The entire tour takes you to 27 stops throughout Philadelphia, and allows you to hop off the bus, explore the attraction/neighborhood, and hop back on when the next bus comes in 15 minutes! There's no way you could cover this much ground on your own. The tour guides are well informed, entertaining, and provide a great tour of everything you need to know about Philly. The entire tour takes an hour and a half, but below I've recommended several stops to get off at and explore. (90 mins) 
+
+* The Philadelphia Museum of Art: Yes, you can to run up the Rocky Steps here. But it also offers one of the most beautiful views of the Philly skyline once you've reached the top of the steps. (15-20 mins)
+
+* Penn's Landing/Waterfront: Spruce Street Harbor Park is a summer staple here in Philly. It has many food and drink vendors, a floating bar area on the Delaware River, and some hammocks and lounge chairs to relax on. (30-45 mins)
+
+5.Get off the bus at Old City/Christ's Church: This is basically Ben Franklin-ville. It's also one of the last stops on the tour, so it makes sense to just stay off here. This is where you can find the locations of his first home, his post office, his printing press, as well as his burial site. But, if you walk to 2nd St., you'll also find many of Philly's best bars, two of my favorites being Sassafras and Khyber Pass. (60 mins).
+
+6.Head back to the airport via uber/cab: Both of these forms of transport will be super easy to pick up in Old City. Plus you'll be right next to I-95 so it'll be the fastest and cheapest route back to the city, only 15 mins, and cost only $10-15. There's no sense in traveling all the way back to center city to take a 30 minute train ride back to the airport. Also, the train can be unreliable so you don't want to bank on that being your mode of transportation to your departing flight.  
+
+
+If you follow this plan to the minute, you'll spend exactly 5 to 5.5 hours in the city. That should give you plenty of time to travel in and out of Philly and still make your flight in time. Plus, you can choose to shave off time here and there at various spots I've recommended to play in safe. If you need to take away anything from this list though, definitely take the bus tour! It's the best way to see the most in a short period of time in our historic city.
+
+Have fun, and enjoy Philly! Feel free to PM me with any questions :)
+
+
+
+
+
+",1473871672.0,7,False,2qh24,,,,0,,,,,,14-09-2016,09:47:52,,,,,52q2by,1
+90,d0nl31m,,d0nju39,,,comment,onlyforwriting,Get the fuck out of here. Use the downvote function of this site. This isn't your safe space. ,1457114630.0,5,False,2qh24,,,,0,,,,,,04-03-2016,10:03:50,,,,,48xy04,1
+91,cvs65dm,,3nxirs,,,comment,dingbat21,"WTF. comment from commenter on that news site:
+
+&gt; I am one of the very unfortunate patients who received the flu shot from this nurse. 
+
+&gt; Now to the day of the flu shot.  From my view the nurse was either nervous or very inexperienced.  She set up portable wall and worked behind so only the patient and her can see her dosing.  The guy running the clinic from Totalwellness stated it was for privacy.  I have had flu shots before and no privacy is needed we are just rolling up sleeves.   It was almost like they were hiding what was going on.  I had a strange feeling from the start.
+
+&gt; I have been devastated by this event, can you imagine going to work one day and then finding out that one of your ""benefits"" have put you and your family at a serious health risk.  Now I am faced with ongoing testing and the need to get vaccinated for Hepatitis in hopes it will prevent any exposure.
+
+&gt; According to my doctor, the blood testing should go on for at least 6 months or more because the virus can lie dormant for months before it is detected.   During that time I need to take every precautions as if I were HIV positive or have Hepatitis B or C.  Without going into detail you can all imagine what that may mean.
+
+probably safe to assume other local companies use this Total Wellness group
+
+more: http://6abc.com/health/nurse-giving-flu-shots-reused-syringes-in-mercer-co/1021662/
+
+",1444279244.0,9,,2qh24,,,,0,,,,,,07-10-2015,21:40:44,,,1444279457,,3nxirs,1
+92,cmpuh5w,,2oprqh,7cg09,,comment,tvdpracphl,"Let me suggest Seven Mountains Kung Fu.
+
+http://www.sevenmountainskungfu.com.
+
+This web site is brand new, but a work in progress. The art is Chinese Kung Fu, focus on morality and spirituality. Kung Fu is difficult and takes many years to learn. Studying this art well you can use it for street defense in 3-6 months depending on your practice. To master the art is a life time!
+
+We're on 723 Chestnut St. 3Fl. Above the Morimoto restaurant. We have a red A-frame sign outside during business hours (classes start at 7).
+
+You can some observe as much as you like, come M/W/Th at 7. If you drive into the city, come Weds as it is free parking after 5:30 (may be 5 but say 5:30 for safe).",1418144211.0,0,,2qh24,,,,0,,,,,,09-12-2014,08:56:51,,,,,2oprqh,1
+93,ceqo1md,,cejdjgn,4m321,JawsJVH,comment,[deleted],"So first understand my position.  Working for a manufacturing company.  I deal with the site visits and aiding in minimizing the NOV's (Notice of Violations).  My real job is unrelated, but my degree pulls me in that direction when the situation calls for it.  As with most industrial companies, we have a bit of regulated pollution, no big deal, just we keep pollution under certain limits such as our oil burner for our two main boilers for steam.
+
+Now when the DEP gets involved, its for one of two main things.  Either A:  Site visit, or B:  We are changing something that involves what they have deemed as important to them.  I'll go over why each of these separately.
+
+Site visits:  Every year they make a stop to see the site.  The guy has this notebook and a clipboard along with a computer.  We take him on the floor and he asks to see a number of places on site.  For instance, the boilers as I mentioned before.  He'll walk down, look at it for a minute, and then continues his journey.  He will look at each of our pollution causing machines and finally sit down in a conference room to review some paperwork we've kept over the past year. 
+Why is this useless?  Our paperwork while it is correct, doesn't necessarily need to be, and his tour certainly didn't help him determine true emission of pollutants.  If my company wanted to falsify documents, I can promise you we would get away with it.  Of course, we don't and also we don't need to.  But if we had say a massive spill and kept it a secret, the DEP would not find out by this auditing method.  It is up to the members of the company to assess, document, and notify the DEP.  In fact, the only thing the DEP learns from the site visit is who the new low man on the totem pole is, such as myself.  The visit is more for keeping up appearances, shaking hands, and making sure all those machines we had last year are still being used.  (If we take them offline for over a year we need to notify the DEP and before we turn them back on we need to notify.)
+
+Now for the changes.  Much like the example above, when we remove or put in place a new machine that creates emissions that fall into the realm of the DEP we must notify them.  The process takes six months, after of course, the 40 page notification is written.  I don't know what occurs in this six months, although I can be sure nothing that should legitimately take six months.  This is where the DEP could be useful.  It is this step that allows the state to control what chemicals are emitted into the air.  However, with a bit of science, confusion, and wording, industries can get nearly whatever they want.  For instance, imagine a reaction vessel that was bought for multiple chemical processes.  During the plant application, the exhaust may only have been meant for steam removal.  However, after installation, there is nothing to keep this vessel from partaking in a reaction that creates HCl or worse as a byproduct.  Another example can be related to a plant in the Reading area.  Carpenter Tech uses HF to pickle metal.  They collect emission data by testing one day and multiplying over the month and year.  This test only occurs once or twice in the lifetime of a acid tank.  Meaning, if production and thus pollution goes up, the calculated emissions would not automatically adjust.  The only way someone could be sure is if the DEP's site visit included an impromptu pollution test (known as a stack test).  Of course the DEP doesn't have the money for this involvement though.  And thus require compliance from companies in order to maintain control.  They use strict penalties and hefty fines to scare people away from immoral decisions, but often it is only morals which keep the information flowing often and accurately.
+
+My stance is that most companies care about the environment and do their best to protect it.  There are only a few bad eggs.  The DEP has become too disconnected from the industrial processes they are involved in.  A generation of Environmental Science majors are running around as if they have degrees in the three fields of science and every engineering degree invented.  Most DEP site inspectors know nothing about chemical processing and simply nod their heads while big words swirl around their brains until someone says a key word like stack test, NOV, or hazardous waste.
+
+In conclusion, what the DEP is trying to do is over their heads.  A lot of money is spent purely to scare people into obeying the laws.  If employees were instead empowered to regulate their own companies, I feel a similar system could exist where engineers and management could work together to create an environmentally safe place to work.  Perhaps a world where if a law was broken whistle blowing could exist in some way.  Idk... all I know is the DEP is wasteful, they make my company wasteful, and all to control waste...  If we could spend the money and time instead to make our process less wasteful, everyone would save money.
+
+This was kinda rushed, but if you have any questions about specifics let me know.",1389837140.0,2,,2qh24,,,,0,,,,,,15-01-2014,17:52:20,,,,,1sbmm1,1
