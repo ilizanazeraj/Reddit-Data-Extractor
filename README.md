@@ -20,14 +20,14 @@ This is the official page of the Reddit Data Extractor. The Reddit Data Extracto
 There are two main ways of using the RDE tool. One way is to install all of the Python library dependencies individually. The other is to use the virtual environment. The individual library dependencies are listed below:
 
 `
-pandas
-psaw
-datetime
-pprint
-requests
-urllib3
-tqdm
-argparse
+    pandas
+    psaw
+    datetime  
+    pprint  
+    requests 
+    urllib3 
+    tqdm 
+    argparse 
 `
 
 Then, you will need to either install `git` to pull the files directly to your local machine or download the files directly from this repository. If you are using a virtual environment to run the RDE, then run the following command once you have pulled the repository files to you local machine:
@@ -53,26 +53,26 @@ The RDE is like any other open source software in that you may request or contri
 
 or in BibTeX
 
-`
+```tex
 @misc{reddit-data-extractor,
-  title={{reddit-data-extractor}: Reddit Data Extractor},
+  title={{reddit-data-extractor}: Reddit Data Extractor}, 
   url={https://github.com/Sterner-Labs/Reddit-Data-Extractor},
-  note={https://github.com/Sterner-Labs/Reddit-Data-Extractor},
+  note={https://github.com/Sterner-Labs/Reddit-Data-Extractor}, 
   author={
-    Sean Parsons and
-    Glenn Sterner},
+    Sean Parsons and 
+    Glenn Sterner}, 
   year={2020},
-}
-`
+} 
+```
 
 
 ## Contact
 
 If you would like to contact us with any questions or concerns, reach out below.
 
-Glenn Sterner
-Assistant Professor of Criminal Justice
-Criminal Justice Research Center=
-The Pennsylvania State University
-Abington Campus
-ges5098@psu.edu
+Glenn Sterner  
+Assistant Professor of Criminal Justice  
+Criminal Justice Research Center  
+The Pennsylvania State University  
+Abington Campus  
+ges5098@psu.edu  
