@@ -45,6 +45,34 @@ Once you have all of the dependencies in order, it is time to run the RDE extrac
 
 ## Contribution
 
+The RDE is like any other open source software in that you may request or contribute to development features yourself. If you have a specific feature in mind, please feel free to file an issue and the development team will get to it as soon as possible. If you want to contribute to the project yourself, feel free to clone this repo and an admin will review your pull request. In terms of our development procedure, each feature will have its own forked branch, then a pull request will be made to incorporate the feature in the development branch. Features will be slowly integrated into the master branch release.
+
 ## Citation
 
+`Parsons, S. & Sterner, G. (2020). Reddit Data Extractor. Available: https://github.com/Sterner-Labs/Reddit-Data-Extractor`
+
+or in BibTeX
+
+`
+@misc{reddit-data-extractor,
+  title={{reddit-data-extractor}: Reddit Data Extractor},
+  url={https://github.com/Sterner-Labs/Reddit-Data-Extractor},
+  note={https://github.com/Sterner-Labs/Reddit-Data-Extractor},
+  author={
+    Sean Parsons and
+    Glenn Sterner},
+  year={2020},
+}
+`
+
+
 ## Contact
+
+If you would like to contact us with any questions or concerns, reach out below.
+
+Glenn Sterner
+Assistant Professor of Criminal Justice
+Criminal Justice Research Center=
+The Pennsylvania State University
+Abington Campus
+ges5098@psu.edu
