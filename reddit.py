@@ -1,4 +1,4 @@
-import praw 
+import praw
 import pandas as pd
 import datetime as dt
 import json
@@ -7,20 +7,22 @@ import requests
 from psaw import PushshiftAPI
 import time
 import urllib3
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 import copy
 from tqdm import tqdm
 import argparse
 import os
-from flask import Flask, redirect, url_for, request
+from flask import Flask, redirect, url_for, request, render_template
+
 app = Flask(__name__)
 
-#api = PushshiftAPI(reddit)
+# api = PushshiftAPI(reddit)
 
-parser = argparse.ArgumentParser(description='Enter the input subreddits and keywords text files for data extraction.')
-parser.add_argument('-s', dest='subreddit_file', help='This is the input subreddit text file path.', required=True)
-parser.add_argument('-k', dest='keyword_file', help='This is the input keyword text file path.', required=True)
-args = parser.parse_args()
+# parser = argparse.ArgumentParser(description='Enter the input subreddits and keywords text files for data extraction.')
+# parser.add_argument('-s', dest='subreddit_file', help='This is the input subreddit text file path.', required=True)
+# parser.add_argument('-k', dest='keyword_file', help='This is the input keyword text file path.', required=True)
+# args = parser.parse_args()
 
 
 '''
@@ -46,40 +48,40 @@ class RedditDataExtractor:
         self.api = PushshiftAPI()
         self.start_epoch = None
         self.standardized_dict = {
-                    # these are the fields that both share
-                     'id': '',
-                     'author_id': '',
-                     'parent_id': '',
-                     'parent_author_id': '',
-                     'parent_author_name': '',
-                     'type': 'submission',
-                     'author': '',
-                     'body': '',
-                     'created_utc': '',
-                     'score': '',
-                     'stickied': None,
-                     'subreddit_id': '',
-                     # Now the fields for just submissions
-                     'title': '',
-                     'full_link': '',
-                     'media_only': None,
-                     'num_comments': 0,
-                     'over_18': None,
-                     'pinned': None,
-                     'retrieved_on': '',
-                     'score': None,
-                     'subreddit': '',
-                     'updated_utc': None,
-                     'date': '',
-                     'time': '',
-                     'url': '',
-                     # Now for the comment fields
-                     'distinguished': None,
-                     'edited': None,
-                     'is_submitter': None,
-                     'link_id': '',
-                     'relevance': 0
-                     }
+            # these are the fields that both share
+            'id': '',
+            'author_id': '',
+            'parent_id': '',
+            'parent_author_id': '',
+            'parent_author_name': '',
+            'type': 'submission',
+            'author': '',
+            'body': '',
+            'created_utc': '',
+            'score': '',
+            'stickied': None,
+            'subreddit_id': '',
+            # Now the fields for just submissions
+            'title': '',
+            'full_link': '',
+            'media_only': None,
+            'num_comments': 0,
+            'over_18': None,
+            'pinned': None,
+            'retrieved_on': '',
+            'score': None,
+            'subreddit': '',
+            'updated_utc': None,
+            'date': '',
+            'time': '',
+            'url': '',
+            # Now for the comment fields
+            'distinguished': None,
+            'edited': None,
+            'is_submitter': None,
+            'link_id': '',
+            'relevance': 0
+        }
         self.sub_cache = []
         self.comment_cache = []
         self.cache = {}
@@ -88,10 +90,7 @@ class RedditDataExtractor:
         self.subcount = 0
         self.subtotal = 0
 
-
-        #self.get_keywords_and_subreddits(args.subreddit_file, args.keyword_file)
-
-
+        # self.get_keywords_and_subreddits(args.subreddit_file, args.keyword_file)
 
     '''
         Purpose: This function reads in the input subreddits and keywords from text files provided by user.
@@ -99,6 +98,7 @@ class RedditDataExtractor:
         Ouput: adds subreddits and keywords to instance attributes
 
     '''
+
     def get_keywords_and_subreddits(self, subreddit_file, keyword_file):
 
         with open(subreddit_file) as f:
@@ -110,9 +110,9 @@ class RedditDataExtractor:
         self.keywords = keywords
         self.subreddits = subreddits
 
-    def get_keywords_and_subreddits_from_form(self,subreddit_text,keyword_text):
-        pass
-
+    def get_keywords_and_subreddits_from_form(self, subreddit_text, keyword_text):
+        self.keywords = keyword_text.splitlines()
+        self.subreddits = subreddit_text.splitlines()
 
     '''
         Purpose: Establish connection to Reddit API to extract data
@@ -120,15 +120,15 @@ class RedditDataExtractor:
         Output: adds reddit instance connection to object instance attribute
 
     '''
+
     def initialize_Reddit(self, client_id, client_secret):
         session = requests.Session()
         session.verify = False
 
         self.reddit = praw.Reddit(client_id=client_id,
-                            client_secret=client_secret,
-                            user_agent='App',
-                            requestor_kwargs={'session':session})
-
+                                  client_secret=client_secret,
+                                  user_agent='App',
+                                  requestor_kwargs={'session': session})
 
     '''
         Purpose: conduct a throttled submission search using the PushShift API
@@ -136,14 +136,15 @@ class RedditDataExtractor:
         Output: Returns a list of submissions that contain the query in the particular subreddit
 
     '''
+
     def throttledSubmissionsSearch(self, subreddit, query):
 
         gen = self.api.search_submissions(after=self.start_epoch,
-                                    subreddit=subreddit,
-                                    #limit=1,
-                                    #filter=['author', 'author_fullname', 'full_link',
-                                            #'id', 'num_comments', 'retrieved_on', 'title'],
-                                    q=query)
+                                          subreddit=subreddit,
+                                          # limit=1,
+                                          # filter=['author', 'author_fullname', 'full_link',
+                                          # 'id', 'num_comments', 'retrieved_on', 'title'],
+                                          q=query)
         final = []
         list_of_subs = [i for i in list(gen)]
         for i in list_of_subs:
@@ -156,22 +157,22 @@ class RedditDataExtractor:
             final.append(new)
         return final
 
-
     '''
         Purpose: conduct a throttled comment search using the PushShift API
         Input: arguments are two strings, the subreddit to search and the query parameter to search
         Output: Returns a list of submissions that contain the query in the particular subreddit
 
     '''
+
     def throttledCommentsSearch(self, subreddit, query):
 
         gen = self.api.search_comments(after=self.start_epoch,
-                                    subreddit=subreddit,
-                                    #limit=1,
-                                    #filter=['submission'],
-                                    q=query)
+                                       subreddit=subreddit,
+                                       # limit=1,
+                                       # filter=['submission'],
+                                       q=query)
 
-        return([i.d_ for i in list(gen)])
+        return ([i.d_ for i in list(gen)])
 
     '''
     ################################################################################################################
@@ -182,14 +183,13 @@ class RedditDataExtractor:
     ################################################################################################################
     '''
 
-
-
     '''
         Purpose: converts input comment into standardized format
         Input: comment dictionary to convert into standardized format
         Output: standard format comment
 
     '''
+
     def standardizeIndividualComment(self, comment):
 
         new_dict3 = copy.deepcopy(self.standardized_dict)
@@ -250,8 +250,6 @@ class RedditDataExtractor:
 
         return new_dict3
 
-
-
     '''
         Purpose: converts input comment object into standardized format. The input comment object for 
         this function is from traversing the comment subtree and is controlled by the while loop in 
@@ -260,6 +258,7 @@ class RedditDataExtractor:
         Output: standard format comment
 
     '''
+
     def standardizeCurrentComment(self, currentComment):
 
         new_dict4 = copy.deepcopy(self.standardized_dict)
@@ -320,8 +319,6 @@ class RedditDataExtractor:
 
         return new_dict4
 
-
-
     '''
         Purpose: helper function to determine whether comment's parent is submission or another comment, 
                  also hardcodes values that we know to be true
@@ -329,6 +326,7 @@ class RedditDataExtractor:
         Output: standardized comment dictionary with newly corrected fields
 
     '''
+
     def commentAuthorHelpAndFinalize(self, dictionary):
         if dictionary['parent_id'] == dictionary['link_id']:
             sub = self.reddit.submission(dictionary['link_id'])
@@ -361,20 +359,10 @@ class RedditDataExtractor:
 
         return dictionary
 
-    def set_timeSpan(self,start,end):
-        pass
-    @app.route('/', methods=['POST'])
+    def set_timeSpan(self, start):
+        self.start_epoch = int(start.timestamp())
+
     def extractData(self):
-        if request.method == 'POST':
-            pass
-        else:
-            return
-        self.get_keywords_and_subreddits_from_form(request.form['subreddits'],request.form['keywords'])
-        self.start_epoch=self.set_timeSpan(dt.datetime.strptime(
-            request.form['trip-start'],
-            '%Y-%m-%d') ,dt.datetime.strptime(
-            request.form['trip-end'],
-            '%Y-%m-%d'))
         for subreddit in tqdm(self.subreddits):
             for keyword in self.keywords:
                 submissions = self.throttledSubmissionsSearch(subreddit, keyword)
@@ -383,19 +371,19 @@ class RedditDataExtractor:
                     self.subcount += 1
                     new_dict = copy.deepcopy(self.standardized_dict)
                     for key in sub.keys():
-                            if key == 'selftext':
-                                new_dict['body'] = sub['selftext']
-                            if key == 'author':
-                                try:
-                                    new_dict['author_id'] = sub['author'].id
-                                except:
-                                    new_dict['author_id'] = ''
-                            if key in ['parent_id', 'subreddit_id', 'link_id']:
-                                new_dict[key] = sub[key].split('_')[1]
-                            if key in new_dict.keys():
-                                new_dict[key] = sub[key]
-                            else:
-                                pass
+                        if key == 'selftext':
+                            new_dict['body'] = sub['selftext']
+                        if key == 'author':
+                            try:
+                                new_dict['author_id'] = sub['author'].id
+                            except:
+                                new_dict['author_id'] = ''
+                        if key in ['parent_id', 'subreddit_id', 'link_id']:
+                            new_dict[key] = sub[key].split('_')[1]
+                        if key in new_dict.keys():
+                            new_dict[key] = sub[key]
+                        else:
+                            pass
                     # Hard code parent ID values for submissions because there is no parent
                     new_dict['parent_author_id'] = ''
                     new_dict['parent_author_name'] = ''
@@ -409,9 +397,7 @@ class RedditDataExtractor:
 
                     self.list_of_data.append(new_dict)
 
-
                 comments = self.throttledCommentsSearch(subreddit, keyword)
-
 
                 for comment in comments:
                     if comment['id']:
@@ -430,7 +416,6 @@ class RedditDataExtractor:
                             except:
                                 pass
 
-
                             # Add the submission of the Comment and also add it to the sub_cache
 
                             # Do logic to get ParentAuthorID and ParentAuthor
@@ -445,7 +430,6 @@ class RedditDataExtractor:
             print('Total for ' + subreddit + ' subreddit is ' + str(self.subtotal))
             self.subtotal = 0
         print('Total number of entries: ' + str(self.total))
-
 
     def createCSV(self, subreddit, keyword):
         data = pd.DataFrame(self.list_of_data)
@@ -463,8 +447,18 @@ class RedditDataExtractor:
         print('Just processed ' + filename + ' with a total of ' + str(len(data.index)) + ' entries')
         time.sleep(5)
 
+
 if __name__ == '__main__':
-    RDE = RedditDataExtractor(client_id = 'KUv9fnWD9zXYiA', client_secret = 'K0g76ObWUHjR18GFXVXSU03Elag')
+    RDE = RedditDataExtractor(client_id='KUv9fnWD9zXYiA', client_secret='K0g76ObWUHjR18GFXVXSU03Elag')
     app.run(debug=True)
 
 
+@app.route('/', methods=['POST', 'GET'])
+def start():
+    if request.method == 'POST':
+        RDE.get_keywords_and_subreddits_from_form(request.form['subreddits'], request.form['keywords'])
+        RDE.start_epoch = RDE.set_timeSpan(dt.datetime.strptime(
+            request.form['trip-start'],
+            '%d-%m-%Y'))
+        RDE.extractData()
+    return render_template('template.html')
