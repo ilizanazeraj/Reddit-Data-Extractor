@@ -57,13 +57,13 @@ color:#00003E;
         <hr id="line">
     </div>
 </center>
-<h3  style="text-align:center"><span class="glyphicon glyphicon-time" style=" color:#FF8C00;"></span> Select the timeline
+<h3  style="text-align:center"><span class="glyphicon glyphicon-time" style=" color:#FF8C00;"></span> Select the start date
     you want to extract data from</h3>
 <div align="center">
     <label for="start">Start date:</label>
     <input type="date" id="start" name="trip-start"
-           value="22-07-2022"
-           min="01-01-2005" max="12-31-2050">
+            value="2022-07-22"
+       min="2005-01-01" max="2050-12-31">
 </div>
 <h3 style="text-align:center"><span class="glyphicon glyphicon-pencil" style=" color:#FF8C00;"></span> Type the Keywords
     and Subreddits you want to extract data from</h3>
@@ -88,7 +88,9 @@ color:#00003E;
 </div>
 
 <div style="text-align: center;">
-    <input id="extract" type="submit" value="Extract Data">
+    <form action="/run" method="post">
+    <input id="extract" type="submit" name="extract" value="Extract Data">
+    </form>
 </div>
 <center>
     <div id="footer">

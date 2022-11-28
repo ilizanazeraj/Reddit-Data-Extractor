@@ -13,7 +13,7 @@ import copy
 from tqdm import tqdm
 import argparse
 import os
-from flask import Flask, redirect, url_for, request, render_template
+from flask import Flask, redirect, url_for, request, render_template, send_from_directory, current_app
 
 app = Flask(__name__)
 
@@ -444,21 +444,28 @@ class RedditDataExtractor:
             data.to_csv(abs_path + filename)
         self.total += len(data.index)
         self.subtotal += len(data.index)
+        send_from_directory(directory=uploads, filename=filename)
         print('Just processed ' + filename + ' with a total of ' + str(len(data.index)) + ' entries')
         time.sleep(5)
 
 
 if __name__ == '__main__':
-    RDE = RedditDataExtractor(client_id='KUv9fnWD9zXYiA', client_secret='K0g76ObWUHjR18GFXVXSU03Elag')
     app.run(debug=True)
+    uploads = os.path.join(current_app.root_path, app.config['UPLOAD_FOLDER'])
 
 
-@app.route('/', methods=['POST', 'GET'])
-def start():
+
+@app.route('/run', methods=['GET', 'POST'])
+def run():
     if request.method == 'POST':
+        RDE = RedditDataExtractor(client_id='KUv9fnWD9zXYiA', client_secret='K0g76ObWUHjR18GFXVXSU03Elag')
         RDE.get_keywords_and_subreddits_from_form(request.form['subreddits'], request.form['keywords'])
         RDE.start_epoch = RDE.set_timeSpan(dt.datetime.strptime(
             request.form['trip-start'],
-            '%d-%m-%Y'))
+            '%Y-%d-%m'))
         RDE.extractData()
+
+@app.route('/', methods=['POST', 'GET'])
+def start():
     return render_template('template.html')
+
