@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reddit Scraper</title>
+    <style>
+
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden; }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 100px;
+            background: #00003E;
+        }
+
+#line {
+height:5px;border-width:0;color:gray;background-color:#FF8C00;
+        }
+
+#tittle {
+padding: 10px 0px 0px 0px;
+            background: #00003E;
+            color: white;
+        }
+#extract {
+border: 2px solid #FF8C00;
+color:#00003E;
+}
+var today = new Date();
+var date = today. getFullYear()+’-‘+(today. getMonth()+1)+’-‘+today. getDate();
+    </style>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<body>
+<center>
+    <div id="title">
+        <h1 align="center"> Reddit Data Extractor </h1>
+        <hr id="line">
+    </div>
+</center>
+<h3  style="text-align:center"><span class="glyphicon glyphicon-time" style=" color:#FF8C00;"></span> Select the timeline
+    you want to extract data from</h3>
+<div align="center">
+    <label for="start">Start date:</label>
+    <input type="date" id="start" name="trip-start"
+           value
+           min="2005-01-01" max>
+    <label for="start">End date:</label>
+    <input type="date" id="end" name="trip-end"
+           value
+           min="2005-01-01" max>
+</div>
+<h3 style="text-align:center"><span class="glyphicon glyphicon-pencil" style=" color:#FF8C00;"></span> Type the Keywords
+    and Subreddits you want to extract data from</h3>
+<div class="row">
+    <div class="column">
+        <form align="right" action="/cgi-bin/hello_get.cgi" method="post">
+         <textarea rows="10" cols="40" name="keywords">
+            Enter keywords here...
+         </textarea>
+            <br>
+        </form>
+
+    </div>
+    <div class="column">
+        <form align="left" action="/cgi-bin/hello_get.cgi" method="post">
+         <textarea rows="10" cols="40" name="subreddits">
+            Enter subreddits here...
+         </textarea>
+            <br>
+        </form>
+    </div>
+</div>
+
+<div style="text-align: center;">
+    <input id="extract" type="submit" value="Extract Data">
+</div>
+<center>
+    <div id="footer">
+        <h6 style=" color:#FFFFFF;">Contact Information</h6>
+        <h6 style="color:#737373;"><span class="glyphicon glyphicon-user" style=" color:#FF8C00;"></span> Glenn Sterner
+        </h6>
+        <h6 style="color:#737373;"><span class="glyphicon glyphicon-envelope" style=" color:#FF8C00;"></span>
+            ges5098@psu.edu</h6>
+    </div>
+</center>
+<strong><script src="connect.js"></script>strong>
+<script src="data.js"></script>
+</body>
+</html>

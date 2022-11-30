@@ -1,3 +1,5 @@
+from cgitb import strong
+
 import praw
 import pandas as pd
 import datetime as dt
@@ -13,9 +15,12 @@ import copy
 from tqdm import tqdm
 import argparse
 import os
-from flask import Flask, redirect, url_for, request, render_template, send_from_directory, current_app
-
+from flask import Flask, redirect, url_for, request, render_template, send_from_directory, current_app, jsonify
+from flask_cors import CORS
+#<strong>#Set up Flaskstrong>:
 app = Flask(__name__)
+#<strong>#Set up Flask to bypass CORSstrong>:
+cors = CORS(app)
 
 # api = PushshiftAPI(reddit)
 
@@ -454,15 +459,15 @@ if __name__ == '__main__':
     uploads = os.path.join(current_app.root_path, app.config['UPLOAD_FOLDER'])
 
 
-
 @app.route('/run', methods=['GET', 'POST'])
 def run():
     if request.method == 'POST':
         RDE = RedditDataExtractor(client_id='KUv9fnWD9zXYiA', client_secret='K0g76ObWUHjR18GFXVXSU03Elag')
+        r = request.form['subreddits']
+        print(r)
         RDE.get_keywords_and_subreddits_from_form(request.form['subreddits'], request.form['keywords'])
-        RDE.start_epoch = RDE.set_timeSpan(dt.datetime.strptime(
-            request.form['trip-start'],
-            '%Y-%d-%m'))
+        print('data retrieved')
+        RDE.start_epoch = RDE.set_timeSpan(dt.datetime.strptime(request.form['trip-start'], '%Y-%d-%m'))
         RDE.extractData()
 
 @app.route('/', methods=['POST', 'GET'])
