@@ -13,7 +13,7 @@ import copy
 from tqdm import tqdm
 import argparse
 import os
-from flask import Flask, redirect, url_for, request, render_template, send_from_directory, current_app
+from flask import Flask, redirect, url_for, request, render_template, send_from_directory, current_app, send_file
 
 app = Flask(__name__)
 
@@ -113,6 +113,8 @@ class RedditDataExtractor:
     def get_keywords_and_subreddits_from_form(self, subreddit_text, keyword_text):
         self.keywords = keyword_text.splitlines()
         self.subreddits = subreddit_text.splitlines()
+        print(self.keywords)
+        print(self.subreddits)
 
     '''
         Purpose: Establish connection to Reddit API to extract data
@@ -444,17 +446,17 @@ class RedditDataExtractor:
             data.to_csv(abs_path + filename)
         self.total += len(data.index)
         self.subtotal += len(data.index)
-        send_from_directory(directory=uploads, filename=filename)
+        return send_file(path_or_file=filename, as_attachment=True)
         print('Just processed ' + filename + ' with a total of ' + str(len(data.index)) + ' entries')
         time.sleep(5)
 
 
 if __name__ == '__main__':
     app.run(debug=True)
-    uploads = os.path.join(current_app.root_path, app.config['UPLOAD_FOLDER'])
 
-
-
+@app.route('/', methods=['POST', 'GET'])
+def start():
+    return render_template('template.html')
 @app.route('/run', methods=['GET', 'POST'])
 def run():
     if request.method == 'POST':
@@ -462,10 +464,9 @@ def run():
         RDE.get_keywords_and_subreddits_from_form(request.form['subreddits'], request.form['keywords'])
         RDE.start_epoch = RDE.set_timeSpan(dt.datetime.strptime(
             request.form['trip-start'],
-            '%Y-%d-%m'))
+            '%Y-%m-%d'))
+        print(request.form['subreddits'])
+        print(request.form['keywords'])
         RDE.extractData()
 
-@app.route('/', methods=['POST', 'GET'])
-def start():
-    return render_template('template.html')
-
+        return render_template('template.html')

@@ -59,6 +59,7 @@ color:#00003E;
 </center>
 <h3  style="text-align:center"><span class="glyphicon glyphicon-time" style=" color:#FF8C00;"></span> Select the start date
     you want to extract data from</h3>
+<form action="/run" method="post">
 <div align="center">
     <label for="start">Start date:</label>
     <input type="date" id="start" name="trip-start"
@@ -67,31 +68,28 @@ color:#00003E;
 </div>
 <h3 style="text-align:center"><span class="glyphicon glyphicon-pencil" style=" color:#FF8C00;"></span> Type the Keywords
     and Subreddits you want to extract data from</h3>
+
 <div class="row">
-    <div class="column">
-        <form align="right" action="/cgi-bin/hello_get.cgi" method="post">
-         <textarea rows="10" cols="40" name="keywords">
-            Enter keywords here...
-         </textarea>
+
+    <div class="column" align="right">
+
+         <textarea rows="10" cols="40" name="keywords" placeholder="Enter keywords here..."></textarea>
             <br>
-        </form>
 
     </div>
-    <div class="column">
-        <form align="left" action="/cgi-bin/hello_get.cgi" method="post">
-         <textarea rows="10" cols="40" name="subreddits">
-            Enter subreddits here...
-         </textarea>
+    <div class="column" align="left">
+
+         <textarea rows="10" cols="40" name="subreddits" placeholder="Enter subreddits here..."></textarea>
             <br>
-        </form>
+
     </div>
 </div>
 
 <div style="text-align: center;">
-    <form action="/run" method="post">
     <input id="extract" type="submit" name="extract" value="Extract Data">
-    </form>
+<!--    </form>-->
 </div>
+</form>
 <center>
     <div id="footer">
         <h6 style=" color:#FFFFFF;">Contact Information</h6>
