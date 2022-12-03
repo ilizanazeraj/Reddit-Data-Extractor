@@ -35,7 +35,7 @@ body {
 height:5px;border-width:0;color:gray;background-color:#FF8C00;
         }
 
-#tittle {
+#title {
 padding: 10px 0px 0px 0px;
             background: #00003E;
             color: white;
@@ -52,7 +52,7 @@ color:#00003E;
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 <body>
 <center>
-    <div id="tittle">
+    <div id="title">
         <h1 align="center"> Reddit Data Extractor </h1>
         <hr id="line">
     </div>
@@ -63,7 +63,11 @@ color:#00003E;
 <div align="center">
     <label for="start">Start date:</label>
     <input type="date" id="start" name="trip-start"
-            value="2022-07-22"
+            value
+       min="2005-01-01" max="2050-12-31">
+    <label for="start">End date:</label>
+    <input type="date" id="end" name="trip-end"
+            value
        min="2005-01-01" max="2050-12-31">
 </div>
 <h3 style="text-align:center"><span class="glyphicon glyphicon-pencil" style=" color:#FF8C00;"></span> Type the Keywords
