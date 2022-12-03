@@ -37,7 +37,7 @@ app = Flask(__name__)
 
 '''
 
-
+#initial class
 class RedditDataExtractor:
 
     def __init__(self, client_id, client_secret):
@@ -99,6 +99,7 @@ class RedditDataExtractor:
 
     '''
 
+    #to extract keywords and subreddits from text
     def get_keywords_and_subreddits(self, subreddit_file, keyword_file):
 
         with open(subreddit_file) as f:
@@ -110,6 +111,7 @@ class RedditDataExtractor:
         self.keywords = keywords
         self.subreddits = subreddits
 
+    #to extract keywords and subreddits from GUI
     def get_keywords_and_subreddits_from_form(self, subreddit_text, keyword_text):
         self.keywords = keyword_text.splitlines()
         self.subreddits = subreddit_text.splitlines()
@@ -433,6 +435,7 @@ class RedditDataExtractor:
             self.subtotal = 0
         print('Total number of entries: ' + str(self.total))
 
+    #once the keywords are extracted, compile results into a downloadable CSV
     def createCSV(self, subreddit, keyword):
         data = pd.DataFrame(self.list_of_data)
         filename = subreddit + '_' + keyword + '.csv'
