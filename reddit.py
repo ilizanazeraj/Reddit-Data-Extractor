@@ -359,14 +359,14 @@ class RedditDataExtractor:
         return dictionary
 
     def set_timeSpan(self, start, end):
-        try:
-            self.start_epoch = int(start.timestamp())
-        except:
+        if len(start) > 0:
+            self.start_epoch = int(dt.datetime.strptime(start, '%Y-%m-%d').timestamp())
+        else:
             self.start_epoch = int(dt.datetime(2005, 1, 1).timestamp())
-        try:
-            self.end_epoch = int(end.timestamp())
-        except:
-            self.end_epoch = int(dt.datetime.today().timestamp())
+        if len(end) > 0:
+            self.end_epoch = int(dt.datetime.strptime(end, '%Y-%m-%d').timestamp())
+        else:
+            self.end_epoch = int(dt.datetime.strptime(dt.datetime.today().strftime('%Y-%m-%d'), '%Y-%m-%d').timestamp())
 
 
     def extractData(self):
@@ -467,7 +467,6 @@ def run():
     if request.method == 'POST':
         RDE = RedditDataExtractor(client_id='KUv9fnWD9zXYiA', client_secret='K0g76ObWUHjR18GFXVXSU03Elag')
         RDE.get_keywords_and_subreddits_from_form(request.form['subreddits'], request.form['keywords'])
-        RDE.set_timeSpan(dt.datetime.strptime(request.form['trip-start'],'%Y-%m-%d'),
-                         dt.datetime.strptime(request.form['trip-end'],'%Y-%m-%d'))
+        RDE.set_timeSpan(request.form['trip-start'], request.form['trip-end'])
         RDE.extractData()
         return render_template('downloaded.html')
