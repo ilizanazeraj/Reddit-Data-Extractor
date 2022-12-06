@@ -1,19 +1,15 @@
 import praw
 import pandas as pd
 import datetime as dt
-import json
-from pprint import pprint
 import requests
 from psaw import PushshiftAPI
-import time
 import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 import copy
 from tqdm import tqdm
-import argparse
 import os
-from flask import Flask, redirect, url_for, request, render_template, send_from_directory, current_app, send_file
+from flask import Flask, request, render_template, send_file
 
 app = Flask(__name__)
 
@@ -47,6 +43,7 @@ class RedditDataExtractor:
         self.initialize_Reddit(client_id, client_secret)
         self.api = PushshiftAPI()
         self.start_epoch = None
+        self.end_epoch = None
         self.standardized_dict = {
             # these are the fields that both share
             'id': '',
@@ -115,8 +112,6 @@ class RedditDataExtractor:
     def get_keywords_and_subreddits_from_form(self, subreddit_text, keyword_text):
         self.keywords = keyword_text.splitlines()
         self.subreddits = subreddit_text.splitlines()
-        print(self.keywords)
-        print(self.subreddits)
 
     '''
         Purpose: Establish connection to Reddit API to extract data
@@ -144,6 +139,7 @@ class RedditDataExtractor:
     def throttledSubmissionsSearch(self, subreddit, query):
 
         gen = self.api.search_submissions(after=self.start_epoch,
+                                          before=self.end_epoch,
                                           subreddit=subreddit,
                                           # limit=1,
                                           # filter=['author', 'author_fullname', 'full_link',
@@ -171,6 +167,7 @@ class RedditDataExtractor:
     def throttledCommentsSearch(self, subreddit, query):
 
         gen = self.api.search_comments(after=self.start_epoch,
+                                       before=self.end_epoch,
                                        subreddit=subreddit,
                                        # limit=1,
                                        # filter=['submission'],
@@ -363,8 +360,16 @@ class RedditDataExtractor:
 
         return dictionary
 
-    def set_timeSpan(self, start):
-        self.start_epoch = int(start.timestamp())
+    def set_timeSpan(self, start, end):
+        if len(start) > 0:
+            self.start_epoch = int(dt.datetime.strptime(start, '%Y-%m-%d').timestamp())
+        else:
+            self.start_epoch = int(dt.datetime(2005, 1, 1).timestamp())
+        if len(end) > 0:
+            self.end_epoch = int(dt.datetime.strptime(end, '%Y-%m-%d').timestamp())
+        else:
+            self.end_epoch = int(dt.datetime.strptime(dt.datetime.today().strftime('%Y-%m-%d'), '%Y-%m-%d').timestamp())
+
 
     def extractData(self):
         for subreddit in tqdm(self.subreddits):
@@ -431,9 +436,9 @@ class RedditDataExtractor:
 
                 self.createCSV(subreddit, keyword)
                 self.list_of_data = []
-            print('Total for ' + subreddit + ' subreddit is ' + str(self.subtotal))
+            # print('Total for ' + subreddit + ' subreddit is ' + str(self.subtotal))
             self.subtotal = 0
-        print('Total number of entries: ' + str(self.total))
+        # print('Total number of entries: ' + str(self.total))
 
     #once the keywords are extracted, compile results into a downloadable CSV
     def createCSV(self, subreddit, keyword):
@@ -450,8 +455,8 @@ class RedditDataExtractor:
         self.total += len(data.index)
         self.subtotal += len(data.index)
         return send_file(path_or_file=filename, as_attachment=True)
-        print('Just processed ' + filename + ' with a total of ' + str(len(data.index)) + ' entries')
-        time.sleep(5)
+        #print('Just processed ' + filename + ' with a total of ' + str(len(data.index)) + ' entries')
+        #time.sleep(5)
 
 
 if __name__ == '__main__':
@@ -465,11 +470,6 @@ def run():
     if request.method == 'POST':
         RDE = RedditDataExtractor(client_id='KUv9fnWD9zXYiA', client_secret='K0g76ObWUHjR18GFXVXSU03Elag')
         RDE.get_keywords_and_subreddits_from_form(request.form['subreddits'], request.form['keywords'])
-        RDE.start_epoch = RDE.set_timeSpan(dt.datetime.strptime(
-            request.form['trip-start'],
-            '%Y-%m-%d'))
-        print(request.form['subreddits'])
-        print(request.form['keywords'])
+        RDE.set_timeSpan(request.form['trip-start'], request.form['trip-end'])
         RDE.extractData()
-
-        return render_template('template.html')
+        return render_template('downloaded.html')

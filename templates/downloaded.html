@@ -57,42 +57,8 @@ color:#00003E;
         <hr id="line">
     </div>
 </center>
-<h3  style="text-align:center"><span class="glyphicon glyphicon-time" style=" color:#FF8C00;"></span> Select the start date
-    you want to extract data from</h3>
+<h3  style="text-align:center"><span style=" color:#FF8C00;"></span> Your data has been successfully downloaded.</h3>
 <form action="/run" method="post">
-<div align="center">
-    <label for="start">Start date:</label>
-    <input type="date" id="start" name="trip-start"
-            value
-       min="2005-01-01" max="2050-12-31"
-    <label for="start">End date:</label>
-    <input type="date" id="end" name="trip-end"
-            value
-       min="2005-01-01" max="2050-12-31"
-</div>
-<h3 style="text-align:center"><span class="glyphicon glyphicon-pencil" style=" color:#FF8C00;"></span> Type the Keywords
-    and Subreddits you want to extract data from</h3>
-
-<div class="row">
-
-    <div class="column" align="right">
-
-         <textarea rows="10" cols="40" name="keywords" placeholder="Enter keywords here..." required></textarea>
-            <br>
-
-    </div>
-    <div class="column" align="left">
-
-         <textarea rows="10" cols="40" name="subreddits" placeholder="Enter subreddits here..." required></textarea>
-            <br>
-
-    </div>
-</div>
-
-<div style="text-align: center;">
-    <input id="extract" type="submit" name="extract" value="Extract Data">
-<!--    </form>-->
-</div>
 </form>
 <center>
     <div id="footer">
