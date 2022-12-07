@@ -4,15 +4,12 @@ import datetime as dt
 import requests
 from psaw import PushshiftAPI
 import urllib3
-
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 import copy
 from tqdm import tqdm
 import os
 from flask import Flask, request, render_template, send_file
-
 app = Flask(__name__)
-
 # api = PushshiftAPI(reddit)
 
 # parser = argparse.ArgumentParser(description='Enter the input subreddits and keywords text files for data extraction.')
@@ -440,21 +437,23 @@ class RedditDataExtractor:
             self.subtotal = 0
         # print('Total number of entries: ' + str(self.total))
 
+
     #once the keywords are extracted, compile results into a downloadable CSV
     def createCSV(self, subreddit, keyword):
         data = pd.DataFrame(self.list_of_data)
         filename = subreddit + '_' + keyword + '.csv'
-        current_dir = os.path.dirname(__file__)
-        rel_path = 'data/'
-        abs_path = os.path.join(current_dir, rel_path)
+        # Get the directory of download folder
+        current_dir = os.path.expanduser("~")+"/Downloads/"
+        # Set the path
+        abs_path = os.path.join(current_dir)
         if data.empty:
             # don't put it in a CSV file then!
             pass
         else:
-            data.to_csv(abs_path + filename)
+           data.to_csv(abs_path + filename)
         self.total += len(data.index)
         self.subtotal += len(data.index)
-        return send_file(path_or_file=filename, as_attachment=True)
+        return send_file(path_or_file=abs_path+filename, as_attachment=True)
         #print('Just processed ' + filename + ' with a total of ' + str(len(data.index)) + ' entries')
         #time.sleep(5)
 
